@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-$userIdMap = require __DIR__ . '/user_id_map.php';
+$userAvatars = require __DIR__ . '/user_avatars.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -145,13 +145,13 @@ enum SlideType
     case MONTH;
     case EVENT;
     case MEMORIES;
-    case NICK;
     case BAR_CHART;
 }
 
 $memories = [
-        'kranfagel' => 'moja była się ode mnie <em>odpierdoliła</em>',
-    'j_janus'
+    'kranfagel' => 'pierwsza samodzielnie zdobyta drzewna T5',
+    'j_janus' => "Największą radością dla mnie jest wyzwalanie  energii u ludzi do robienia wielkich rzeczy. Sukcesem społecznym roku 2025 jest <em>wydarzenie Mega - Przygody Keszerka</em>. Aktywnością towarzyszącą był największy w Polsce GeoArt z Lab Cache (będąc w Belgii na Atomium zamarzyłem, żeby stworzyć coś podobnego w Polsce), współtworzenie GeoArt Torcik. Cieszy mnie też Cito kajakowe. Nową inicjatywą na tym terenie jest <em>cykl codziennych eventów grudniowych</em>. Dziękuję Wam! \n Prywatnie: publikacja wirtuala Webcam, zagadka 3-D, udział w Giga w Pradze, zdobycie kesza z największą ilością przyznanych rekomendacji na świecie oraz 4 nowe kraje: Szwajcaria, USA, Gwatemala, Kanada. Zobaczyłem też, że <em>mam najczęściej odwiedzanego kesza w województwie, ósmego w Polsce</em>.",
+    'Naphilim' => "W tym roku największe wrażenie zrobił na mnie <em>event w Pradze</em>, gdzie nauczyłem się, że \"komu z keszerem w podróż, temu krowa mać large o północy w polu na czeskiej wsi\".\nNiemniej chciałbym przekazać, że <em>jesteście najpozytywnjejszą grupą szaleńców</em> i chciałbym podziękować, że przygarnęliście młodego i mnie ma doczepkę do waszego grona. Jesteście wspaniali 😀",
 ];
 
 $slides = [
@@ -161,7 +161,6 @@ $slides = [
     ],
     [
         ['type' => SlideType::MEMORIES],
-        ['type' => SlideType::NICK, 'nick' => 'kranfagel', 'text' => 'moja była się ode mnie <em>odpierdoliła</em>'],
     ],
     [
 
@@ -280,18 +279,20 @@ $slides = [
                         <section>
                             <h1>Wspomnienia z 2025</h1>
                         </section>
-                    <?php elseif ($slide['type'] === SlideType::NICK):
-                        $avatarUrl = isset($userIdMap[$slide['nick']]) ? "https://s3.amazonaws.com/gs-geo-images/{$userIdMap[$slide['nick']]}_sq250.jpg" : 'https://geocaching.com/images/default_avatar.png';
-                        ?>
-                        <section>
-                            <h2><a target="_blank"
-                                   href="https://www.geocaching.com/p/?u=<?= $slide['nick'] ?>"><?= $slide['nick'] ?></a>
-                            </h2>
-                            <img src="<?= $avatarUrl ?>" class="avatar">
-                            <blockquote class="fragment custom blur">
-                                <?= $slide['text'] ?>
-                            </blockquote>
-                        </section>
+                        <?php
+                        foreach ($memories as $nick => $text):
+                            $avatarUrl = $userAvatars[$nick] ?? 'https://geocaching.com/images/default_avatar.png';
+                            ?>
+                            <section>
+                                <h2><a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= urlencode($nick) ?>"><?= htmlspecialchars($nick) ?></a>
+                                </h2>
+                                <img src="<?= $avatarUrl ?>" class="avatar">
+                                <blockquote class="fragment custom blur <?=strlen($text) > 100 ? 'wide' : '' ?>">
+                                    <?= nl2br($text) ?>
+                                </blockquote>
+                            </section>
+                        <?php endforeach; ?>
                     <?php elseif ($slide['type'] === SlideType::BAR_CHART):
                         $data = json_decode(file_get_contents(__DIR__ . '/2025/stats/' . $slide['stats']), true);
                         $data = array_slice($data['data'], 0, $slide['top'] ?? 10);
