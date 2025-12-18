@@ -14,7 +14,7 @@ $userIdMap = require __DIR__ . '/user_id_map.php';
     <meta name="description" content="Podsumowanie roku 2025"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/moon.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/night.min.css"
           id="theme"/>
 
     <!--	<link rel="stylesheet"-->
@@ -128,11 +128,11 @@ $userIdMap = require __DIR__ . '/user_id_map.php';
         }
 
 
-                blockquote em {
-                    text-decoration: underline;
-                    font-weight: bold;
-                    color: gold;
-                }
+        blockquote em {
+            text-decoration: underline;
+            font-weight: bold;
+            color: gold;
+        }
 
     </style>
 </head>
@@ -146,7 +146,13 @@ enum SlideType
     case EVENT;
     case MEMORIES;
     case NICK;
+    case BAR_CHART;
 }
+
+$memories = [
+        'kranfagel' => 'moja była się ode mnie <em>odpierdoliła</em>',
+    'j_janus'
+];
 
 $slides = [
     [
@@ -167,6 +173,7 @@ $slides = [
     [
 
         ['type' => SlideType::MONTH, 'month' => '03', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_finders.json', 'title' => 'Znalezienia w Małopolsce'],
     ]
 ];
 ?>
@@ -285,6 +292,43 @@ $slides = [
                                 <?= $slide['text'] ?>
                             </blockquote>
                         </section>
+                    <?php elseif ($slide['type'] === SlideType::BAR_CHART):
+                        $data = json_decode(file_get_contents(__DIR__ . '/2025/stats/' . $slide['stats']), true);
+                        $data = array_slice($data['data'], 0, $slide['top'] ?? 10);
+                        $nicks = array_map(fn($row) => $row['profile']['username'], $data);
+                        $values = array_map(fn($row) => $row['cnt'], $data);
+                        $anonymousData = ['data' => ['labels' => array_map(fn($n) => '?', $nicks), 'datasets' => [['data' => $values]]]];
+                        $chartData = ['data' => ['labels' => $nicks, 'datasets' => [['data' => $values]]]];
+                        ?>
+                        <section data-auto-animate>
+                            <h1><?= $slide['title'] ?></h1>
+                            <div class="chart">
+                                <canvas data-chart="bar">
+                                    <!--
+                                    <?= json_encode($anonymousData) ?>
+                                    -->
+                                </canvas>
+                            </div>
+                            <div style="visibility: hidden">
+                                <a>źródło</a>
+                            </div>
+                        </section>
+                        <section data-auto-animate>
+                            <h1><?= $slide['title'] ?></h1>
+                            <div class="chart">
+                                <canvas data-chart="bar">
+                                    <!--
+                                    <?= json_encode($chartData) ?>
+                                    -->
+                                </canvas>
+                            </div>
+                            <div class="source">
+                                <a href="https://project-gc.com/Statistics/TopFTF?profile_country=Poland&profile_region=Ma%C5%82opolskie&fromyyyy=2024&frommm=1&fromdd=1&toyyyy=2024&tomm=12&todd=31&submit=Filter"
+                                   target="_blank">
+                                    źródło
+                                </a>
+                            </div>
+                        </section>
                     <?php endif; ?>
                 <?php endforeach; ?>
             </section>
@@ -295,6 +339,7 @@ $slides = [
         </section>
 
     </div>
+
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.js"></script>
@@ -353,7 +398,7 @@ $slides = [
                 borderColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"],
                 "borderDash": [[5, 10], [0, 0]]
             },
-            bar: {backgroundColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"]},
+            bar: {backgroundColor: ["rgba(56,172,54,0.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"]},
             pie: {backgroundColor: [["rgba(0,0,0,.8)", "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"]]},
 
         },
