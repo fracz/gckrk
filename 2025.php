@@ -324,6 +324,41 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCATNMJ', 'title' => '🎊 CCE - Świetujemy i wspominamy 🎉', 'owner' => 'Peter_PL', 'date' => '25 listopada'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAVZQ5', 'title' => '15 lat minęło - 2025 Community Celebration Event', 'owner' => 'Fishu', 'owner2' => 'm2mPL', 'date' => '26 listopada'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBECR0', 'title' => 'Międzynarodowy Dzień Ciasta 🥧🎂🍰', 'owner' => 'Emson_', 'date' => '27 listopada'],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '12', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBFCB7', 'title' => 'Majki kończy 10 (geo)latek', 'owner' => 'Majki_Obbi', 'date' => '1 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBFEEX', 'title' => 'EKA', 'owner' => 'Dominisia_krk', 'others' => true, 'date' => 'grudzień',
+            'points' => [
+                [
+                    '23 eventy tradycyjne i 2 CITO towarzyszące',
+                    'Indywidualnych logów w serii EKA pojawiło się 344 = średnio przypada 15 uczestników na event + osoby towarzyszące',
+                    'Najmniej liczny okazał się EKA 9 przy ulicy Świerkowej - przyszło 8 osób',
+                    'Najlepszą frekwencją cieszyły się aż trzy eventy: EKA 16 przy ulicy Rybnej, EKA 20 przy ulicy Świętej Rodziny i EKA 22 przy placu Mariackim. Na każdym pojawiło się 21+ osób, a na jednym nasz lokalny recenzent. :)',
+                    'Aż dwie osoby uczestniczyły we wszystkich spotkaniach. Tego wyczynu dokonali m2mPL i emode 🎉',
+                ],
+                [
+                    'Po evencie i CITO przy przy Rybnej przytrafiło się złapać psiego zbiega w centrum, choć nie obyło się w tej misji bez przeszkód. Gabi została odwieziona do schroniska i niedługo wróciła do swoich właścicieli, więc mamy szczęśliwe zakończenie',
+                    'Kontynuując psi wątek, na trzech eventach pojawiła się możliwość poznania młodszego brata Psikusa 🐶',
+                    'Zostało wydrukowane 40 kalendarzy i tyle też się rozeszło. Naklejek w przybliżeniu zostało wydrukowane 450 :)',
+                    'Za malunki w logbooku  głównym odpowiedzialne były 3 osoby: m2mPL, Dominisia_krk i Qinka',
+                    'Nieprzekładalne na liczby było wspaniałe zaangażowanie i mobilizacja społeczności w ten projekt ❤️',
+                ]
+            ]],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBEZRT', 'title' => 'Dzień naftowca i gazownika 🔥', 'owner' => 'Emson_', 'date' => '3 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAXHG0', 'title' => 'Jak być żoną keszera', 'owner' => 'Iluminatornia', 'date' => '5 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB0YRN', 'title' => '🎅🏻Mikołajki z Gwiazdką 🤩 2025 CCE', 'owner' => 'Gwiazdeczka_', 'date' => '5 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATN3C', 'title' => 'Zróbże sobie szopkę', 'owner' => 'Pogliś', 'date' => '7 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBCHCE', 'title' => 'Mikołajki 🎅', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '7 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBAGRY', 'title' => 'Ósmy grudnia, Szybki Mors 2', 'owner' => 'm2mPL', 'date' => '8 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBEQTN', 'title' => 'Świąteczne Pierniczki', 'owner' => 'm2mPL', 'date' => '13 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAW0EG', 'title' => '⛪️Ale Szopka! A.D.2025-2026✨ - Eventowa Celebracja', 'owner' => 'Piętaszek', 'date' => '14 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBFHQT', 'title' => 'Making of.. GIFF i wymiana kartek świątecznych :)', 'owner' => 'm2mPL', 'owner2' => 'barucci', 'date' => '18 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBFFM7', 'title' => 'Dzień Ryby 🐟', 'owner' => 'Emson_', 'date' => '20 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAYNV4', 'title' => 'Christmas Jigsaw - CCE', 'owner' => 'Milk_Bandit', 'date' => '23 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBG75X', 'title' => 'A co było pod choinką?', 'owner' => 'Svarträv', 'date' => '25 grudnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAZWMY', 'title' => 'MORS CCE 2025', 'owner' => 'juleczkap23', 'date' => '27 grudnia'],
+
     ]
 ];
 ?>
@@ -420,34 +455,39 @@ $slides = [
                                 <?php endif; ?>
                             </h2>
                         </section>
-                        <?php if ($slide['points'] ?? false): ?>
-                        <section data-auto-animate>
-                            <h1 class="dark-block <?= strlen($slide['title']) > 10 ? 'r-fit-text' : '' ?>"><?= $slide['title'] ?></h1>
-                            <h2 class="dark-block">
-                                <a href="https://coord.info/<?= $slide['gccode'] ?>"
-                                   target="_blank"><?= $slide['gccode'] ?></a>
-                                <?= $slide['date'] ?>
-                                <a target="_blank"
-                                   href="https://www.geocaching.com/p/?u=<?= $slide['owner'] ?>"><?= $slide['owner'] ?></a>
-                                <?php if ($slide['others'] ?? false): ?> i inni <?php endif; ?>
-                                <?php if ($slide['owner2'] ?? false): ?>
-                                    &amp;
-                                    <a target="_blank"
-                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner2'] ?>"><?= $slide['owner2'] ?></a>
-                                <?php endif; ?>
+                        <?php if ($slide['points'] ?? false):
+                        $points = is_array($slide['points'][0]) ? $slide['points'] : [$slide['points']];
+                        foreach ($points as $pointGroup): ?>
+                            <section data-auto-animate>
+                                <h1 class="dark-block <?= strlen($slide['title']) > 10 ? 'r-fit-text' : '' ?>"><?= $slide['title'] ?></h1>
+                                <?php if (!is_array($slide['points'][0])): ?>
+                                    <h2 class="dark-block">
+                                        <a href="https://coord.info/<?= $slide['gccode'] ?>"
+                                           target="_blank"><?= $slide['gccode'] ?></a>
+                                        <?= $slide['date'] ?>
+                                        <a target="_blank"
+                                           href="https://www.geocaching.com/p/?u=<?= $slide['owner'] ?>"><?= $slide['owner'] ?></a>
+                                        <?php if ($slide['others'] ?? false): ?> i inni <?php endif; ?>
+                                        <?php if ($slide['owner2'] ?? false): ?>
+                                            &amp;
+                                            <a target="_blank"
+                                               href="https://www.geocaching.com/p/?u=<?= $slide['owner2'] ?>"><?= $slide['owner2'] ?></a>
+                                        <?php endif; ?>
 
-                                <?php if ($slide['owner3'] ?? false): ?>
-                                    &amp;
-                                    <a target="_blank"
-                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner3'] ?>"><?= $slide['owner3'] ?></a>
+                                        <?php if ($slide['owner3'] ?? false): ?>
+                                            &amp;
+                                            <a target="_blank"
+                                               href="https://www.geocaching.com/p/?u=<?= $slide['owner3'] ?>"><?= $slide['owner3'] ?></a>
+                                        <?php endif; ?>
+                                    </h2>
                                 <?php endif; ?>
-                            </h2>
-                            <ul>
-                                <?php foreach ($slide['points'] as $point) : ?>
-                                    <li><?= $point ?></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </section>
+                                <ul>
+                                    <?php foreach ($pointGroup as $point) : ?>
+                                        <li><?= $point ?></li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </section>
+                        <?php endforeach; ?>
                     <?php endif; ?>
                         <?php if (count($photos) > 0): ?>
                         <section data-auto-animate class="photos">
