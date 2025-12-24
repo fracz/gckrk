@@ -213,6 +213,8 @@ $memories = [
     'pigeox69' => "Najbardziej, jak zawsze, cieszą nas zdobyte FTFy. W tym roku udało nam się zalogować ich najwięcej spośród wszystkich polskich keszerów.",
     'holdasy' => "To blył Mega rok. Ba, to był nawet GIGA rok!\n Wpadłem w Matriksa po 15 latach a rodzina zaczyna coś mówić o nałogu...\n I pamiętajcie - po pierwsze: Laby to ZUO, po drugie: na pohybel smutasom.",
     'Team_SirWonski' => "Bawimy się dalej i poznajemy nowych keszerów. W tym roku zorganizowaliśmy 1 swój event USTRZEL SOBIE ŚNIADANIE i puściliśmy małą serię ODLOT\nDo zabawy włączył również  Hiszpania 145, który  sam już zakłada swoje skrzynki i ambitnie szuka nowych keszy.",
+    'nemrodek' => "Znalazłem cache w 3 ostatnich brakujących województwach",
+    'kingagren22' => "Powrót do keszowania, po dosyć długiej przerwie. W sumie 453 znalezienia, plus te czekające na lepsze czasy... czytaj chęć, czas i motywację do zostania zalogowanymi. Dwa Mega jednego roku, dla mnie kompletna nowość. Współtowarzyszenie przy organizacji geologicznego eventu na górze Świętej Anny. Było super! Chętnie bym to powtórzyła 😊 To był dobry rok!",
 ];
 
 $memoriesCounter = 0;

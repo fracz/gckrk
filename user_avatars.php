@@ -52,4 +52,7 @@ return [
     'Emson_' => 'https://img.geocaching.com/user/square250/b94a326b-b355-4f01-8f94-9cca183a7303.png',
     'pigeox69' => 'https://img.geocaching.com/user/square250/5ac9dc8f-b529-4524-945c-9b88c8683ad0.jpg',
     'Team_SirWonski' => 'https://img.geocaching.com/user/square250/7fd3d8d7-98a0-41cf-9872-09a81a9e64a6.jpg',
+    'nemrodek' => 'https://img.geocaching.com/user/square250/cd8ad22e-5173-4060-b951-59ad9b7ba5d0.jpg',
+    'holdasy' => 'https://img.geocaching.com/user/square250/d905e430-0566-4b8c-bcef-7d4a6c1daa3e.png',
+    'kingagren22' => 'https://img.geocaching.com/user/square250/11545681-0f26-4cbc-908c-8a8bc62b57d4.jpg',
 ];
