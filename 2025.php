@@ -66,6 +66,10 @@ $userAvatars = require __DIR__ . '/user_avatars.php';
             font-size: 2em;
         }
 
+        .small {
+            font-size: 0.6em;
+        }
+
         .r-stack img:nth-child(2) {
             margin-left: -180px;
             margin-top: -30px;
@@ -146,6 +150,8 @@ enum SlideType
     case EVENT;
     case MEMORIES;
     case BAR_CHART;
+    case TITLE;
+    case NUMBERS;
 }
 
 $memories = [
@@ -157,7 +163,50 @@ $memories = [
 $slides = [
     [
         ['type' => SlideType::MONTH, 'month' => '01', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATKXD', 'title' => 'Nowy rok, nowe sięganie do gwiazd.', 'owner' => 'soratte', 'date' => '1 stycznia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATNV3', 'title' => 'Krakowskie podsumowanie 2024', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '6 stycznia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB1GGP', 'title' => 'KSzK', 'owner' => 'Quard32', 'owner2' => 'udar2', 'date' => 'styczeń - listopad',
+            'points' => [
+                'Zdobyte szczyty – Wzgórze Krzemionki, Górka Pychowicka, Góra Solnik, Wzgórze Kaim, Kopiec Krakusa, Guminek, Sikornik, Srebrna Góra, Ostra Góra, Wzgórze Rajsko, Pustelnik,',
+                '11 eventów',
+                '222 attendy',
+                '60 keszerów (nicków)',
+                'Najliczniej odwiedzony event GCB52EF – KSzK #6 - Wzgórze Kaim – 27 attendów – 29 wpisów (nicków) w logbooku',
+            ]],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB1VPR', 'title' => 'Chodź, opowiem Ci o Polsce', 'owner' => 'Emson_', 'others' => true, 'date' => 'październik 24 - kwiecień 25',
+            'points' => [
+                'październik 24 - kwiecień 25',
+                '9 eventów, 4 organizatorów',
+                '165 attended, 55 nicków keszerskich',
+                'najwyższa frekwencja Qinka, Justyna94, Dominisia_krk (8 z 9)',
+                'Tarnów, Dębica, Ciężkowice, Opole, Bochnia, Zalipie, Pacanów, Mielec, Radłów',
+            ]],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAXHV2', 'title' => '🥂🎂🍾Trzecie GeoUrodziny🍾🎂🥂', 'owner' => 'udar2', 'owner2' => 'Kasia_2014', 'owner3' => 'Quard32', 'date' => '22 stycznia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAZZC4', 'title' => 'Kto rano wstaje...', 'owner' => 'Kosoff', 'date' => '30 stycznia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB23NB', 'title' => 'GeoPubQuiz 🤔❓', 'owner' => 'Emson_', 'date' => '30 stycznia'],
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Eventy', 'bg' => '2025/images/bgs/events.gif'],
+        ['type' => SlideType::NUMBERS, 'title' => 'Eventy 2025',
+            'source' => 'https://project-gc.com/Statistics/GeocachesPerArea?filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_ts_type%5B%5D=Event+Cache&filter_hd_fromDate=2025-01-24&filter_hd_toDate=2025-12-31&filter_dae_archived=on&filter_dae_pastEvents=on&submit=Filter',
+            'numbers' => [
+                ['label' => 'Liczba eventów w Krakowie', 'number' => 141, 'additional' => '(147 w 2024 r.)'],
+                ['label' => 'Liczba eventów w Małopolsce', 'number' => 172, 'additional' => '(201 w 2024 r.)'],
+            ]],
+        ['type' => SlideType::NUMBERS, 'title' => 'CCE 2025',
+            'source' => 'https://project-gc.com/Statistics/GeocachesPerArea?filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-24&filter_hd_toDate=2025-12-31&filter_dae_archived=on&filter_dae_pastEvents=on&submit=Filter',
+            'numbers' => [
+                ['label' => 'Liczba CCE w Krakowie', 'number' => 20],
+                ['label' => 'Liczba CCE w Małopolsce', 'number' => 28],
+            ]],
+        ['type' => SlideType::NUMBERS, 'title' => 'CITO 2025',
+            'source' => 'https://project-gc.com/Statistics/GeocachesPerArea?filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_hd_fromDate=2025-01-24&filter_hd_toDate=2025-12-31&filter_dae_archived=on&filter_dae_pastEvents=on&submit=Filter',
+            'numbers' => [
+                ['label' => 'Liczba CITO w Krakowie', 'number' => 10],
+                ['label' => 'Liczba CITO w Małopolsce', 'number' => 14, 'additional' => '(12 w 2024 r.)'],
+            ]],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends.json', 'title' => 'Attendy', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends_krakow.json', 'title' => 'Attendy (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
     ],
     [
         ['type' => SlideType::MEMORIES],
@@ -208,7 +257,7 @@ $slides = [
             <section>
                 <?php foreach ($slideColumn as $slide):
                     $folderId = $slide['folder'] ?? $slide['gccode'] ?? '';
-                    $coverPath = "images/2025/$folderId/cover.jpg";
+                    $coverPath = "2025/images/$folderId/cover.jpg";
                     ?>
                     <?php
                     if ($slide['type'] === SlideType::MONTH):
@@ -234,7 +283,7 @@ $slides = [
                             <h1><?= $monthNames[$month] ?></h1>
                             <p><em><?= $slide['subtitle'] ?></em></p>
                             <div class="source">
-                                <a href="https://project-gc.com/Tools/MapCompare?player_prc_profileName=kranfagel&geocache_mc_show%5B%5D=found-none&geocache_mc_show%5B%5D=found-one&geocache_mc_show%5B%5D=found-all&geocache_crc_country%5B%5D=Poland&geocache_crc_region%5B%5D=Ma%C5%82opolskie&geocache_crc_region%5B%5D=Podkarpackie&geocache_crc_region%5B%5D=%C5%9Al%C4%85skie&geocache_dae_disabled=on&geocache_dae_archived=on&geocache_dae_pastEvents=on&geocache_ts_type%5B%5D=Cache+In+Trash+Out+Event&geocache_ts_type%5B%5D=Event+Cache&geocache_ts_type%5B%5D=Groundspeak+Lost+and+Found+Celebration&geocache_hd_fromDate=<?= $firstDay ?>&geocache_hd_toDate=<?= $lastDay ?>&submit=Filter"
+                                <a href="https://project-gc.com/Tools/MapCompare?player_prc_profileName=Staszek1&geocache_mc_show%5B%5D=found-none&geocache_mc_show%5B%5D=found-one&geocache_mc_show%5B%5D=found-all&geocache_crc_country%5B%5D=Poland&geocache_crc_region%5B%5D=Ma%C5%82opolskie&geocache_crc_region%5B%5D=Podkarpackie&geocache_crc_region%5B%5D=%C5%9Al%C4%85skie&geocache_dae_disabled=on&geocache_dae_archived=on&geocache_dae_pastEvents=on&geocache_ts_type%5B%5D=Cache+In+Trash+Out+Event&geocache_ts_type%5B%5D=Event+Cache&geocache_ts_type%5B%5D=Lost+and+Found+Event+Cache&geocache_hd_fromDate=<?= $firstDay ?>&geocache_hd_toDate=<?= $lastDay ?>&submit=Filter"
                                    target="_blank">
                                     źródło
                                 </a>
@@ -247,7 +296,8 @@ $slides = [
                             $photos = array_values(array_diff(scandir(dirname($coverPath)), ['cover.jpg', '.', '..']));
                         }
                         ?>
-                        <section <?= file_exists($coverPath) ? "data-background=\"$coverPath\" data-auto-animate" : '' ?>>
+                        <section <?= file_exists($coverPath) ? "data-background=\"$coverPath\"" : '' ?>
+                                data-auto-animate>
                             <h1 class="dark-block r-fit-text"><?= $slide['title'] ?></h1>
                             <h2 class="dark-block">
                                 <a href="https://coord.info/<?= $slide['gccode'] ?>"
@@ -255,17 +305,68 @@ $slides = [
                                 <?= $slide['date'] ?>
                                 <a target="_blank"
                                    href="https://www.geocaching.com/p/?u=<?= $slide['owner'] ?>"><?= $slide['owner'] ?></a>
+                                <?php if ($slide['others'] ?? false): ?> i inni <?php endif; ?>
+                                <?php if ($slide['owner2'] ?? false): ?>
+                                    &amp;
+                                    <a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner2'] ?>"><?= $slide['owner2'] ?></a>
+                                <?php endif; ?>
+                                <?php if ($slide['owner3'] ?? false): ?>
+                                    &amp;
+                                    <a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner3'] ?>"><?= $slide['owner3'] ?></a>
+                                <?php endif; ?>
                             </h2>
                         </section>
-                        <?php if (count($photos) > 0): ?>
-                        <section data-auto-animate class="photos">
-                            <h1 class="dark-block"><?= $slide['title'] ?></h1>
+                        <?php if ($slide['points'] ?? false): ?>
+                        <section data-auto-animate>
+                            <h1 class="dark-block <?= strlen($slide['title']) > 10 ? 'r-fit-text' : '' ?>"><?= $slide['title'] ?></h1>
                             <h2 class="dark-block">
                                 <a href="https://coord.info/<?= $slide['gccode'] ?>"
                                    target="_blank"><?= $slide['gccode'] ?></a>
                                 <?= $slide['date'] ?>
                                 <a target="_blank"
                                    href="https://www.geocaching.com/p/?u=<?= $slide['owner'] ?>"><?= $slide['owner'] ?></a>
+                                <?php if ($slide['others'] ?? false): ?> i inni <?php endif; ?>
+                                <?php if ($slide['owner2'] ?? false): ?>
+                                    &amp;
+                                    <a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner2'] ?>"><?= $slide['owner2'] ?></a>
+                                <?php endif; ?>
+
+                                <?php if ($slide['owner3'] ?? false): ?>
+                                    &amp;
+                                    <a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner3'] ?>"><?= $slide['owner3'] ?></a>
+                                <?php endif; ?>
+                            </h2>
+                            <ul>
+                                <?php foreach ($slide['points'] as $point) : ?>
+                                    <li><?= $point ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </section>
+                    <?php endif; ?>
+                        <?php if (count($photos) > 0): ?>
+                        <section data-auto-animate class="photos">
+                            <h1 class="dark-block <?= strlen($slide['title']) > 10 ? 'r-fit-text' : '' ?>"><?= $slide['title'] ?></h1>
+                            <h2 class="dark-block">
+                                <a href="https://coord.info/<?= $slide['gccode'] ?>"
+                                   target="_blank"><?= $slide['gccode'] ?></a>
+                                <?= $slide['date'] ?>
+                                <a target="_blank"
+                                   href="https://www.geocaching.com/p/?u=<?= $slide['owner'] ?>"><?= $slide['owner'] ?></a>
+                                <?php if ($slide['others'] ?? false): ?> i inni <?php endif; ?>
+                                <?php if ($slide['owner2'] ?? false): ?>
+                                    &amp;
+                                    <a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner2'] ?>"><?= $slide['owner2'] ?></a>
+                                <?php endif; ?>
+                                <?php if ($slide['owner3'] ?? false): ?>
+                                    &amp;
+                                    <a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= $slide['owner3'] ?>"><?= $slide['owner3'] ?></a>
+                                <?php endif; ?>
                             </h2>
                             <div class="r-stack">
                                 <?php foreach ($photos as $photo): ?>
@@ -275,6 +376,26 @@ $slides = [
                             </div>
                         </section>
                     <?php endif; ?>
+                    <?php elseif ($slide['type'] === SlideType::TITLE): ?>
+                        <section data-background="<?= $slide['bg'] ?>">
+                            <h1 class=" r-fit-text">Eventy</h1>
+                        </section>
+                    <?php elseif ($slide['type'] === SlideType::NUMBERS): ?>
+                        <section>
+                            <h1><?= $slide['title'] ?></h1>
+                            <?php foreach ($slide['numbers'] as $number): ?>
+                                <h3><?= $number['label'] ?></h3>
+                                <p class="fragment number custom blur">
+                                    <?= $number['number'] ?>
+                                </p>
+                                <?php if (isset($number['additional'])): ?>
+                                    <p class="fragment custom blur small number"><?= $number['additional'] ?></p>
+                                <?php endif; ?>
+                            <?php endforeach; ?>
+                            <div class="source">
+                                <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
+                            </div>
+                        </section>
                     <?php elseif ($slide['type'] === SlideType::MEMORIES): ?>
                         <section>
                             <h1>Wspomnienia z 2025</h1>
@@ -288,7 +409,7 @@ $slides = [
                                        href="https://www.geocaching.com/p/?u=<?= urlencode($nick) ?>"><?= htmlspecialchars($nick) ?></a>
                                 </h2>
                                 <img src="<?= $avatarUrl ?>" class="avatar">
-                                <blockquote class="fragment custom blur <?=strlen($text) > 100 ? 'wide' : '' ?>">
+                                <blockquote class="fragment custom blur <?= strlen($text) > 100 ? 'wide' : '' ?>">
                                     <?= nl2br($text) ?>
                                 </blockquote>
                             </section>
@@ -301,8 +422,9 @@ $slides = [
                         $anonymousData = ['data' => ['labels' => array_map(fn($n) => '?', $nicks), 'datasets' => [['data' => $values]]]];
                         $chartData = ['data' => ['labels' => $nicks, 'datasets' => [['data' => $values]]]];
                         ?>
+                        <?php if ($slide['secret'] ?? false): ?>
                         <section data-auto-animate>
-                            <h1><?= $slide['title'] ?></h1>
+                            <h1 class="r-fit-text"><?= $slide['title'] ?></h1>
                             <div class="chart">
                                 <canvas data-chart="bar">
                                     <!--
@@ -314,8 +436,9 @@ $slides = [
                                 <a>źródło</a>
                             </div>
                         </section>
+                    <?php endif; ?>
                         <section data-auto-animate>
-                            <h1><?= $slide['title'] ?></h1>
+                            <h1 class="<?= strlen($slide['title']) > 10 ? 'r-fit-text' : '' ?>"><?= $slide['title'] ?></h1>
                             <div class="chart">
                                 <canvas data-chart="bar">
                                     <!--
@@ -324,10 +447,7 @@ $slides = [
                                 </canvas>
                             </div>
                             <div class="source">
-                                <a href="https://project-gc.com/Statistics/TopFTF?profile_country=Poland&profile_region=Ma%C5%82opolskie&fromyyyy=2024&frommm=1&fromdd=1&toyyyy=2024&tomm=12&todd=31&submit=Filter"
-                                   target="_blank">
-                                    źródło
-                                </a>
+                                <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
                             </div>
                         </section>
                     <?php endif; ?>
