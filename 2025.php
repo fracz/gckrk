@@ -152,6 +152,7 @@ enum SlideType
     case BAR_CHART;
     case TITLE;
     case NUMBERS;
+    case YOUTUBE;
 }
 
 $memories = [
@@ -220,7 +221,7 @@ $slides = [
     ],
     [
         ['type' => SlideType::TITLE, 'title' => 'Statystyki założeń', 'bg' => '2025/images/bgs/hide.gif'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_events.json', 'title' => 'Założone eventy', 'source'=>'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_events.json', 'title' => 'Założone eventy', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
         ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_events_krakow.json', 'title' => 'Założone eventy (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
         ['type' => SlideType::BAR_CHART, 'secret' => true, 'stats' => 'hidden.json', 'title' => 'Założone kesze', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
         ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_krakow.json', 'title' => 'Założone kesze (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
@@ -232,6 +233,7 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCB0RE0', 'title' => 'Muuuuszę tu posprzątać', 'owner' => 'kranfagel', 'date' => '2 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB3QGX', 'title' => '🎲 Planszówkowy event 🎲', 'owner' => 'Qinka', 'date' => '12 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAW13Y', 'title' => 'Rubik\'s CCE', 'owner' => 'Milk_Bandit', 'date' => '19 marca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB40E7', 'title' => 'CITO - Czysta Wisłoka #3', 'owner' => 'Peter_PL', 'date' => '25 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB1EEA', 'title' => 'GeoPloty x GeoDebaty - Co z Geocaching Małopolska?', 'owner' => 'Dominisia_krk', 'date' => '26 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB49CM', 'title' => '🌖 Spotkanie wielbicieli sera i nocnego nieba 🌒', 'owner' => 'Dominisia_krk', 'date' => '27 marca'],
     ],
@@ -240,6 +242,7 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYQA4', 'title' => 'Święto Tarnowskiej Turystyki 2025', 'owner' => 'Emson_', 'date' => '5 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB3ZYT', 'title' => 'Znakujemy szlak w Szczepanowicach 🖌️🟢', 'owner' => 'Emson_', 'date' => '5 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2J2G', 'title' => '🦄✨ Unicorn Day ✨🦄', 'owner' => 'UnicornCacherPL', 'date' => '9 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB4YTZ', 'title' => 'PISANKA', 'owner' => 'juleczkap23', 'date' => '12 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB3001', 'title' => 'GeoSlajdowisko 12 - Maroko', 'owner' => 'kranfagel', 'owner2' => 'kretes', 'date' => '14 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2RN5', 'title' => 'Kto rano wstaje, temu wschód słońca w piżamie!', 'owner' => 'Dominisia_krk', 'owner2' => 'mugol_02', 'date' => '16 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2RN6', 'title' => 'W Rio Leżaneiro zimno, weź piżamę i na zachód wio!', 'owner' => 'Dominisia_krk', 'owner2' => 'mugol_02', 'date' => '16 kwietnia'],
@@ -252,7 +255,75 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCAGGGG', 'title' => '25 Years of Geocaching – Prague 2025', 'owner' => 'PragueGigaTeam', 'date' => '3 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB57AB', 'title' => 'Koniec', 'owner' => 'Emson_', 'date' => '6 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB7A95', 'title' => 'Ło matko, gdzie nas znowu poniosło?', 'owner' => 'Dominisia_krk', 'date' => '28 maja'],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '06', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB6XG3', 'title' => 'GeoSlajdowisko 13 - Islandia i ziemia Krośnieńska', 'owner' => 'yuve', 'owner2' => 'Emson_', 'date' => '4 czerwca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB7ZKW', 'title' => 'GeoGraTerenowa 2.0 - Błonia', 'owner' => 'Chamaneax_PL', 'date' => '12 czerwca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB816D', 'title' => 'Posprzątajmy Radłów!', 'owner' => 'Kosoff', 'date' => '14 czerwca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB82G7', 'title' => 'Trening Keszera', 'owner' => 'Emson_', 'others' => true, 'date' => 'czerwiec - grudzień',
+            'points' => [
+                'Rozpoczęcie sezonu, Ćwiczenia na drążku, Pływanie, Joga 2, Bieganie + sztafeta, Kolarstwo, Wspinaczka i dostęp linowy, Disc golf, Kręgle 2, Ping-pong 2, Rugby, TRInO, Twister 2, Skok w dal, Wspinanie po ściance, TempO, Równoważnia, Siłownia zewnętrzna, Morsowanie listopad, Zakończenie sezonu',
+                '20 eventów',
+                '4 organizatorów',
+                '72 uczestników (nicków keszerskich)',
+                '285 attended',
+                'Wygrał Najlepsi<3',
+            ]],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '07', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB94K4', 'title' => 'GeoSlajdowisko 14 - Barcelona', 'owner' => 'Emson_', 'date' => '10 lipca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB7778', 'title' => 'Celebrating 20 years with Team PodCacher (PIKNIK)', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '14 lipca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB9FZ0', 'title' => 'Środek Wakacji', 'owner' => 'soratte', 'date' => '22 lipca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB9N3M', 'title' => 'DIY: zróbmy sobie wakacyjne bransoletki', 'owner' => 'Qinka', 'date' => '23 lipca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB9999', 'title' => 'GeoSlajdowisko 15 - Austria, Singapur, Malezja, Indonezja', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '24 lipca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB1Y11', 'title' => 'Log & Roll 2025', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'owner3' => 'marcin3243', 'date' => '26 lipca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAW0G1', 'title' => 'Piknik urodzinowy - jak te 10 lat zleciało!', 'owner' => 'Dominisia_krk', 'date' => '31 lipca'],
 
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '08', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAYP9A', 'title' => 'Morskie opowieści - CCE', 'owner' => 'xMt', 'date' => '2 sierpnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB9C8F', 'title' => '𝕊𝕫ℤ𝕫𝔸𝕝𝕠𝕆𝕠𝕟𝔼 𝕀𝕆 𝕝𝕒𝕥 😉', 'owner' => 'Einsztein27', 'date' => '3 sierpnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATN5B', 'title' => 'Juraidy 2025, czyli Idzie niebo ciemną nocą CCE', 'owner' => 'CopernicusHigh', 'date' => '9 sierpnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBA1K7', 'title' => 'Jurajskie Sprzątanko', 'owner' => 'Milk_Bandit', 'date' => '20 sierpnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBB12W', 'title' => 'IV GeoDebaty', 'owner' => 'barucci', 'date' => '21 sierpnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAWWFM', 'title' => 'WWFM XXII - na galowo', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '23 sierpnia'],
+        ['type' => SlideType::YOUTUBE, 'title' => 'WWFM XXII - na galowo', 'id' => 'KxLkrHMWmIo'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBBEGM', 'title' => 'Koniec Wakacji', 'owner' => 'soratte', 'date' => '29 sierpnia'],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '09', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB0Y8D', 'title' => 'Buła (krowa) ser i bule ;P', 'owner' => 'm2mPL', 'date' => '20 września'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBCTZ3', 'title' => '2 w 1: Pocztówkowe CITO w kamieniołomie!', 'owner' => 'barucci', 'date' => '28 września'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATMMZ', 'title' => 'Ognisko z okazji', 'owner' => 'dadoskawina', 'date' => '30 września'],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '10', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBCE9Z', 'title' => 'Postcard Day w Krakowie', 'owner' => 'm2mPL', 'date' => '1 października'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB3K0N', 'title' => 'Czy my w końcu zjemy tę kiełbasę?', 'owner' => 'kranfagel', 'date' => '9 października'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBA1HK', 'title' => '#Skrajności Krakowa', 'owner' => 'najlepsi<3', 'date' => 'październik - listopad'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB1Y6H', 'title' => 'Płonie ognisko i szumią knieje', 'owner' => 'Quard32', 'owner2' => 'udar2', 'date' => '13 października'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBARWA', 'title' => 'Wybieramy naszą barwę - logo Geocaching Kraków', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '15 i 29 października'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB0YRA', 'title' => '2025 CCE: Od kiedy ziemniaki to dobre wieści?', 'owner' => 'leneia', 'date' => '18 października'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAYQAR', 'title' => '✨ Magiczne Geourodziny – 12 lat przygód ✨', 'owner' => 'Qinka', 'date' => '21 października'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBDT89', 'title' => 'CITO - 🍂 Jesień 2025 🍂', 'owner' => 'Peter_PL', 'date' => '25 października'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATKNH', 'title' => '25 lat geoachingu - ponownie na drezynach', 'owner' => 'nemrodek', 'date' => '26 października'],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '11', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBC1T1', 'title' => 'Kamieniołom Mydlniki v4', 'owner' => 'kranfagel', 'owner2' => 'Dominisia_krk', 'owner3' => 'marcin3243', 'date' => '11 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATNGB', 'title' => 'GIFF 2025 Kraków - CCE', 'owner' => 'daksya', 'owner2' => 'kranfagel', 'date' => '12 listopada'],
+        ['type' => SlideType::YOUTUBE, 'title' => 'GIFF 2025 Kraków - CCE', 'id' => 'OczuNPRvqPU'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBAZAT', 'title' => 'Słoiki', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '14 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATNN8', 'title' => 'GeoPubQuiz 2 🤔❓', 'owner' => 'Emson_', 'date' => '21 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBDWWX', 'title' => 'Nocne polowanie na wiązkę lasera z satelity ICESat', 'owner' => 'zucharek', 'date' => '21 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAW085', 'title' => 'GEOrientuj się pod Drabożem', 'owner' => 'seba54', 'date' => '23 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBF6HN', 'title' => 'CITO we wtorek', 'owner' => 'soratte', 'date' => '25 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCATNMJ', 'title' => '🎊 CCE - Świetujemy i wspominamy 🎉', 'owner' => 'Peter_PL', 'date' => '25 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAVZQ5', 'title' => '15 lat minęło - 2025 Community Celebration Event', 'owner' => 'Fishu', 'owner2' => 'm2mPL', 'date' => '26 listopada'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCBECR0', 'title' => 'Międzynarodowy Dzień Ciasta 🥧🎂🍰', 'owner' => 'Emson_', 'date' => '27 listopada'],
     ]
 ];
 ?>
@@ -407,6 +478,18 @@ $slides = [
                             </div>
                         </section>
                     <?php endif; ?>
+                    <?php elseif ($slide['type'] === SlideType::YOUTUBE): ?>
+                        <section data-auto-animate>
+                            <h1 class="dark-block"><?= $slide['title'] ?></h1>
+                            <iframe width="1050" height="590" src="https://www.youtube.com/embed/<?= $slide['id'] ?>"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            <div>
+                                <a target="_blank"
+                                   href="https://www.youtube.com/watch?v=<?= $slide['id'] ?>">link</a>
+                            </div>
+                        </section>
                     <?php elseif ($slide['type'] === SlideType::TITLE): ?>
                         <section data-background="<?= $slide['bg'] ?>">
                             <h1 class="dark-block r-fit-text"><?= $slide['title'] ?></h1>
