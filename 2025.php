@@ -162,9 +162,54 @@ $memories = [
     'EkaSyr_Mantis' => "Początek 2025 roku – konto EkaSyr, znaleziono 140 skrytek.\n Koniec 2025 roku – konto EkaSyr&Mantis, ponad 2000 skrytek, zebrany matriks, 19 ukrytych, wędka, kalosze, CITO, MEGA, FTF, brudny samochód, dzieci same w domu i wściekle.\n Czy to rodzaj COVIDu geocachingowego?",
     'seba54' => "Obyło się bez zbytnich szaleństw :)\n - milestone 10.000 znalezień celowo na keszu GCA2025 (Where's 25?)\n - utrzymanie ciągłości miesięcznych FTF-ów\n- w końcu pierwszy awatar, pieczątka i osobisty drewniak",
     'm2mPL' => "Udało mi się zrobić 10000 kroków podczas doby spędzonej w busie, w trakcie wycieczki o pieszczotliwym tytule 15 krajów w jeden dzień ;P Kosztowało mnie to troszkę krążenia wokół busa na postojach i biegania do keszy, ale udało się :)\n\nStała się rzecz niesłuchana, byłam świadkiem dwóch historycznych matrixów - elales i kretes i to jednego dnia :) 21 grudnia był dniem cudów :)",
-    'GhostDiamond' => "Ten rok to dla mnie przede wszystkim inspirujące spotkania z ludźmi pełnymi pasji czyli ewenty, cito, Mikołajki i inne, ale jego najpiękniejszym zwieńczeniem stał się grudniowy debiut mojego kesza\n\n\"Ulepimy dziś... kesza?\".\n\n To projekt szczególny, bo łączący urodzinową dedykację dla wyjątkowej osoby dla mnie.\n Oraz z misją wywoływania uśmiechu na twarzach dzieci niezależnie od sytuacji, w jakiej się znajdują.",
+    'GhostDiamond' => "Ten rok to dla mnie przede wszystkim inspirujące spotkania z ludźmi pełnymi pasji czyli ewenty, cito, Mikołajki i inne, ale jego najpiękniejszym zwieńczeniem stał się grudniowy debiut mojego kesza\n\n\"Ulepimy dziś... kesza?\" (GCBFYHJ).\n\n To projekt szczególny, bo łączący urodzinową dedykację dla wyjątkowej osoby dla mnie.\n Oraz z misją wywoływania uśmiechu na twarzach dzieci niezależnie od sytuacji, w jakiej się znajdują.",
     'Zuśka_Kluśka' => 'Zalogowałem wszystkie zaległe kesze:)',
     'Ruda_Mała_Mi' => 'Skónczyłam Matrixa, założyłam 2 kesze podczas pobytu w szpitalu w Zakopanem (STF został przyłapany na gorącym uczynku, ale i tak nie znaleźli finału ;)',
+    'CopernicusHigh' => 'Spektakularnych osiągnięć brak, ale za to po latach geocacherskiego marazmu wróciłam do zakładania keszy. No i w czasie wakacji dotarłam do pięknego miejsca, gdzie nie było ani pół kesza i zaraziłam geocachingiem lokalnego przewodnika. Efekt: pierwsze kesze czekające tam na publikację i zaktualizowana strona na Wikipedii dotycząca geocachingu w krajach Luzofonii',
+    'jodelka' => 'W tym roku bardziej poczułam, że moje podróże, małe i duże, dzięki geocachingowi są ciekawsze.',
+    'karibud' => 'Ten rok akurat nie był keszersko wybitny w moim wykonaniu jednak z całą pewnością chwile, które zostaną mi w pamięci to 2000 kesz na giga w Pradze oraz niespodziewane spotkanie z Wami w Rzymie XD',
+    'kretes' => 'Moje najszczęśliwsze wspomnienie z 2025 roku to niespodziewane ukończenie matrixa w bardzo ciekawym miejscu i w przemiłym towarzystwie!',
+    'elales' => 'Miałam plan, żeby ze smutkiem wysłać wiadomość, że to był kolejny rok bez matrixa. Jednak okazało się, że geoprzyjaciele zrobili mi nie lada niespodziankę i z wielkim wzruszeniem przyznaję, że to jest rok, w którym ukończyłam pierwszego matrixa.',
+    'zuzix_854' => 'Cały 2025 owocował w mnóstwo super wydarzeń i wspomnień. Z tego roku najbardziej wynoszę ze sobą ogrom wspaniałych skrytek, wspolne nagrywki do GIFFa, oraz oczywiście pamiętną wyprawę po 16 typów :)',
+    'ptaki_polski_13' => 'Znalazłem 1000 keszy i udało mi się zdobyć 2 FTFy na Chorwacji i jest to mój piąty rok na geocachingu.',
+    'Prezes201' => 'Początkowo jako cel na rok 2025 ustaliłem sobie, żeby ten rok był po prostu lepszy keszowo od poprzedniego, po kilku miesiącach szło na tyle dobrze, że wbicie 10 tysięcy znalezień, również stało się realnym celem, który spełniłem 19 grudnia w Rzymie. W tym roku wpadło około 4,5 tys. znalezień z czego 2,5 tys. nie licząc labów. Udało mi się również skończyć matrixa na lajciku z Emsonem.',
+    'daksya' => '536 powiatów ze znalezionym keszem w 2025 roku - 19 miejsce w Europie i 25 na Świecie w tej statystyce w tym roku. Przy okazji dokończenie zazielenienia wszystkich powiatów w Polsce.',
+    'Majki_Obbi' => 'W 2025 roku w moich statystykach przybyło ponad 780 znalezień i założyłem wreszcie skrytki w moim rodzinnym mieście Chrzanowie, ale to wszystko nieważne, bo najbardziej cieszy mnie tysiąc pięćset sto dziewięćset uśmiechów, żartów, wygłupów, miłych słów i dobrych wspomnień, jakie zebrałem podczas spotkań z innymi keszerami i keszerkami. Dziękuję!',
+    'Piętaszek' => 'w tym roku, największym dla mnie wydarzeniem było zaproszenie mnie na event we Wrocławiu, na którym mogłem powiedzieć kilka słów na temat mojej książki, którą napisałem kilka lat temu ☺️ Bardzo fajnie, że ktoś o tym pamiętał i wyciągnął książkę i przy okazji mnie z otchłani historii 😁 Z tego co kojarzę, była to pierwsza taka publikacja w Polsce, poświęcona w 100% Geocachingowi.',
+    'GoGacekGC' => 'Gacek nie zaliczy tego roku do udanych. Definitywne zakończenie działalności Stowarzyszenia Geocaching Małopolska rzuciło cień na radości z keszowania w tym roku. A były to wszelkie spotkania, w szczególności na Szczytach Korony Krakowa, jeden skromny FTF, znalezienie najstarszej skrytki Małopolski i wyjątkowej przygody przy "Festiwalu Nietoperzy" oraz poznanie (także keszowych) ciekawostek Sewilli i Norwegii. Z nadzieją lepszego roku 2026...',
+    'chrupek_4' => 'W tym roku udało mi się zwiedzić wzdłuż i wszerz całą Skandynawię, a wisienką na torcie było znalezienie najstarszego kesza w Danii "Kippers in the Jungle (Denmark\'s first)" GC6A',
+    'Krecik40' => 'W tym roku odwiedziłem 1 "Nowy Kraj" - Rumunię w którym można było zobaczyć kontrasty architektoniczne oraz zapełniłem kalendarz z wielkością skrytki "inna"',
+    'piechurek7' => 'Najlepiej wspominam wieloosobowe wyprawy keszerów. Niezależnie od organizatora oraz destynacji, zawsze panowała świetna atmosfera, dobra współpraca, a keszowanie dawało wiele radości i dostarczało niesamowitych przygód.',
+    'Sandra_Piotr_BUKOWNO' => "Oprócz letniej wyprawy do Rzymu, podczas której zalogowaliśmy niezliczoną ilość Earthcache'y i Virtuali, 2025 przebiegł głownie w kierunku statystyk. Jest tego bardzo dużo, ale dumni jesteśmy z tej jednej:\nW 2025 roku udało nam się zdobyć prawie 200 FTF'ów - kilkadziesiąt więcej niż Kranfagel ;)",
+    'PL_MASA' => "2025… sukcesy drzewne, stworzenie grupy keszerskiej w pracy, Giga w Pradze i pierwszy webcam, pierwsze wędkowanie, keszowanie bardzo daleko od domu, geo-przyjaciele z krakowskiej społeczności, mój pierwszy zorganizowany event i… 1600 znalezień",
+    'AsereczeKK' => "Za nami pierwszy pełny rok keszowania. Rok temu gdy zaczynaliśmy, na podsumowaniu były 62 kesze teraz jest ponad 500, więc idzie do przodu ;) zgarnęliśmy kilka szczególnych dla nas keszy w Kapadocji w Turcji Które mają ponad 20 lat, dziękujemy znajomym keszerom za ten rok. To był super czas!",
+    'M&O&P' => "W tym roku udało nam się ponownie poszerzyć zasięg naszego keszowania, tym razem zdobyliśmy najdalej jak dotąd wysunięty na południe kesz, na Sri Lance, w Tangalle GC5RGTK . Kraj ten nas zachwycił: piękne starożytne stupy, przyroda i dzikie słonie... Naliczyliśmy ich setkę podczas jednodniowego safari 😍.",
+    'soratte' => "Keszowanie krajoznawcze w dobrym towarzystwie, poza ubitymi szlakami. Mołdawia i Azerbejdżan, polecam.",
+    'falcon1984pl' => "- dalsze czerpanie przyjemności i satysfakcji z geocachingu\n - skupiam się głównie na keszowaniu po Krakowie i najbliższej okolicy, atakowaniu FTF jesli jest możliwość ;)\n - wyjazd kilkudniowy na Geocaching Party 2025 (Warszawa) gdzie zrobilismy z synem ponad 200 pkt z labami\n - oprocz tego troche keszowania na Pomorzu podczas majówki i wakacji",
+    'hedonic' => "Spontaniczny wypad na Giga do Pragi, zorganizowanie czterech eventów w czterech krajach (Indie, ZEA, Tajlandia i CCE w Kambodży z okazji mojego 15lecia dołączenia do grona keszerów, z tej okazji konsumowaliśmy suszone owady i owoce lotosu).",
+    'bezsenna' => "Z tego roku najlepiej wspominam event, na którym był sam papież Leon XIV :) W tłumie ludzi nie znalazłam keszerów z eventu, ale za to gość honorowy dwukrotnie przejechał swoim papamobile po placu św. Piotra.",
+    'najlepsi<3' => " myślę że 2025 rok był rokim, w którym udało się wiele. Było wiele wyjazdów, w końcu padł matrix, później drugi i trzeci(!). Nie wykluczone, że padnie jeszcze czwarty. Udało mi się odwiedzić 5 krajów, zrobić ciągłość (trwa nadal!), może uda się dobić do 2000 znalezień.\n Wiele się działo, wiele świetnych keszy i eventów, wiele wspomnień i sytuacji, które na pewno zostaną ze mną na dłużej:)",
+    'Pogliś' => "zastanawialiśmy się co najlepiej wybrać na ten nasz slajd i chyba ze stricte keszowych osiągnięć to pierwsze Giga, pierwsze BlockParty i pierwszy GPS Maze (czy jak mu tam). A poza tym no to najważniejsze w tym roku było powiększenie się składu Poglisia :)",
+    'xMt' => "wyjazd na kilka dni na Słowację, żeby załapać się na event \"2025 CCE : MISSION (IM)POSSIBLE\" (GCAXHF7), pierwsze moje wydarzenie w tym pięknym kraju.",
+    'pocztapp' => "W 2025 roku udało mi się wcielić w życie projekt Wielicki tour z 29 multakami wokół Wieliczki, który pokazuje różnorodność tego regionu i przemianę obyczajową na podkrakowskiej wsi.",
+    'hejgosia' => "Przeżyłam kolejny rok jako żona keszra! Przy tej okazji poznałam wiele ciekawych i mniej ciekawych miejsc :)",
+    'MaryKisiek' => "Narysowałam logo krakowskiej społeczności keszerskiej wg pomysłu pocztappa. Cieszę się, że to właśnie ten projekt zyskał Wasze uznanie i będziecie go dumnie nosić na Waszych strojach.",
+    'marcin3243' => "znalazłem partnerkę życiową, która jest keszerką :)",
+    'dadadsfasd' => "Dębica on tour, bardziej rodzinną częścią czyli belka27, buryas, qauuasznik, FrFr77 i dadadsfasd, USA wrzesień/październik 2025. przejechaliśmy 10000km od Chicago do Sedony i z powrotem, odwiedzając łącznie 13 stanów. wpadło trochę starych keszy z 2000 roku, w tym aż 3 z maja, przede wszystkim MINGO (GC30), czyli najstarszy aktywny kesz, a siódmy w ogóle, który jest nawet zaznaczony na google maps i ma swoją tablicę informacyjną, oraz jedyny na świecie kesz z atrybutem kaktus, znajdujący się w lesie w stanie Wisconsin gdzie nawet nie ma kaktusów😁. oprócz tego przeżyliśmy masę przygód, tych keszerskich i nie tylko.",
+    'Kosoff' => "Udało mi się znaleźć kesza na wysokości ponad 5000 metrów\nUdało mi się zamknąć liste znalezień keszy w każdym z krajów UE",
+    'Svarträv' => "Rok 2025 upłynął pod niemal wyłącznym znakiem nietypowych eventów - z okazji 25-lecia GC udostępniono możliwość zmiany Mega- i Gigaeventów w Block Party oraz rozdano eventy CCE i to właśnie ich szlakiem podążałem przez ostatnie 12 miesięcy.\n W tym roku odwiedziłem:\n -Block Party w 7 krajach co dało miejsce 1. w Małopolsce i ex aequo 1. w Polsce (chyba, że Wiesia.K była w Holandii i jeszcze nie zalogowała tego wyjazdu)\n -GPS Maze w 3 krajach co dało miejsce 1. w Małopolsce i 1. w Polsce\n -Mega Eventy w 3 krajach co dało miejsce ex aequo 2. w Małopolsce i ex aequo 2./3. (zależy jak liczyć) w Polsce (Gratulacje dla Najlepsi<3)\n -CCE w 7 krajach co dało miejsce 1. w Małopolsce i ex aequo 2. w Polsce\n -CITO w 4 krajach co dało miejsce ex aequo 1. w Małopolsce i ex aequo 3. w Polsce\n Co ciekawe tylko pierwszy z tych podpunktów był celowy - resztę uświadomiłem sobie dopiero teraz patrząc w statystyki. Co więcej na wszystkie te osiągnięcia wykorzystałem 1 (słownie: JEDEN) dzień urlopu, całą resztę zamykając w wyjazdach weekendowych.",
+    'Fishu' => "Z 2025 najlepiej będę wspominał wszystkie Lajciki Z .. i spotkania, w tym niezapomniany EKA i pobudki o 1, 2 ,3 - no i 4-tej nad ranem :)\n Z osiągnieć warte odnotowania białą kredą na kominie:\n 1-wszy nasz Jasmer - zamknięty wraz z m2mPL na GC4D Match Stash 7 czerwca 2025 , w miłym towarzystwie Piotr i Agnieszka Daksya oraz Michał Barucci!\n 13 najstarszych keszy w 13 krajach w 2025 (w sumie 21 najstarszych)\n 10 000 keszy na liczniku (niestety z labami)\n 15 Krajów w jeden dzień, oj co to była za wyry..prawa, była nawet kawa :)\n 15 Typów w jeden dzień , tak wiem macie więcej o jeden :P\n O liczbie odwiedzonych krajów nie będę wspominał, bo w grudniu zostaliśmy odsadzeni przez jakiegoś Żurawia :P\n Jeśli 2024 był niezapomniany, to co tu powiedzieć o 2025 ?",
+    '1990ds' => "W końcu się przełamałem i zorganizowałem event! Na razie na wyjeździe, ale i na Kraków przyjdzie czas.",
+    'Krzosz' => "Był to słaby keszersko rok. Uśredniając niewiele ponad 100 znalezień na miesiąc.",
+    'kluczdoskarbu' => "Za moje największe w tym roku osiągnięcie uważam to, że udało mi się ukończyć pierwszego, drugiego a nawet trzeciego matrixa!",
+    'dadoskawina' => "Świadomym osiągnięciem, które mnie bardzo ucieszyło jest skompletowanie powiatów w Czechach. (można dodać, że jako pierwszy, i jak dotąd - jedyny - gracz z Małopolski :) )\n A jako pierwszy w Polsce osiągnąłem 111 CITO, co pozwoliło mi zdobyć FTF-a na challengu we Wrocławiu :)\n Statystyki powinienem mieć dostępne, aczkolwiek nie mam ciekawych, więc nawet nie musisz zaglądać.",
+    'barucci' => "Moim największym geocachingowym osiągnięciem w 2025 był krakowski film GIFFowy, w którym wystąpił każdy, dosłownie każdy, kto chciał się zaangażować - drugorzędne, że sam film trafił do finałowej rolki Geocaching International Film Festival ;)",
+    'aforyzm' => "To co mi się udało w tym roku to w końcu przekroczenie magicznego progu 1000 znalezień. Co prawda liczę z LABkami, bo bez nich jeszcze trochę mi brakuje, ale i tak bardzo cieszę się z tego mojego małego sukcesu.",
+    'Milk_Bandit' => "Założenie geoarta jednorożca.\nZnalezienie półtora tysiąca keszy.\nZnalezienie 15 typów w niecałe 4 godziny.\nPrzekroczyliśmy 100 założonych keszy.",
+    'POKEMISTRZ' => "Rok 2025... Geocachingowo przełomowy! Zrobienie ciągłości, zamknięcie pierwszego matrixa, dwa nowe kraje, kesz z 2000 roku, 2x block party, a także pierwszy MoM w terenie, a przede wszystkim mnóstwo świetnych wspomnień podczas eventów czy wyjazdów! To był świetny rok!",
+    'UnicornCacherPL' => "Zorganizowanie pierwszego eventu o jednorożcach.\nZałożenie pierwszego kesza w Artystycznym Ogrodzie Krakowian.\nZnalezienie tysięcznego kesza.",
+    'TomekS1976' => "Największym sukcesem TomkaS1976 był fakt, że na organizowany przez niego event (GCB5386) pierwszy raz przyszedł ktoś poza nim samym.",
+    'Emson_' => "Osiągnięciem keszerskim, które uważam za najważniejsze w 2025 roku, jest najwięcej opublikowanych eventów w Polsce.",
 ];
 
 $slides = [
@@ -563,16 +608,31 @@ $slides = [
                         <?php
                         foreach ($memories as $nick => $text):
                             $avatarUrl = $userAvatars[$nick] ?? 'https://geocaching.com/images/default_avatar.png';
+                            $photosDir = '2025/nicks/' . $nick;
                             ?>
-                            <section>
-                                <h2><a target="_blank"
+                            <section data-auto-animate>
+                                <h2>
+                                    <a target="_blank"
                                        href="https://www.geocaching.com/p/?u=<?= urlencode($nick) ?>"><?= htmlspecialchars($nick) ?></a>
                                 </h2>
                                 <img src="<?= $avatarUrl ?>" class="avatar">
-                                <blockquote class="fragment custom blur <?= strlen($text) > 100 ? 'wide' : '' ?>">
-                                    <?= nl2br($text) ?>
+                                <blockquote class="fragment custom blur <?= strlen($text) > 300 ? 'wide' : '' ?>">
+                                    <?= nl2br(preg_replace('/\b(GC[A-Z0-9]+)\b/', '<a href="https://coord.info/$1" target="_blank">$1</a>', $text)) ?>
                                 </blockquote>
                             </section>
+                            <?php if (file_exists($photosDir)):
+                            $photos = array_values(array_diff(scandir($photosDir), ['.', '..']));
+                            ?>
+                            <section data-auto-animate>
+                                <h2>
+                                    <a target="_blank"
+                                       href="https://www.geocaching.com/p/?u=<?= urlencode($nick) ?>"><?= htmlspecialchars($nick) ?></a>
+                                </h2>
+                                <?php foreach ($photos as $photo): ?>
+                                    <img class="" src="/<?= $photosDir ?>/<?= $photo ?>" style="max-height: 700px; max-width: 700px"/>
+                                <?php endforeach; ?>
+                            </section>
+                        <?php endif; ?>
                         <?php endforeach; ?>
                     <?php elseif ($slide['type'] === SlideType::BAR_CHART):
                         $data = json_decode(file_get_contents(__DIR__ . '/2025/stats/' . $slide['stats']), true);
