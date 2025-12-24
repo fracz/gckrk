@@ -50,4 +50,6 @@ return [
     'UnicornCacherPL' => 'https://img.geocaching.com/user/square250/a4570201-5775-492c-b0ed-8f8e4941e9c7.png',
     'TomekS1976' => 'https://img.geocaching.com/user/square250/82244bab-859e-46ac-b0cb-a4c69fede604.jpg',
     'Emson_' => 'https://img.geocaching.com/user/square250/b94a326b-b355-4f01-8f94-9cca183a7303.png',
+    'pigeox69' => 'https://img.geocaching.com/user/square250/5ac9dc8f-b529-4524-945c-9b88c8683ad0.jpg',
+    'Team_SirWonski' => 'https://img.geocaching.com/user/square250/7fd3d8d7-98a0-41cf-9872-09a81a9e64a6.jpg',
 ];

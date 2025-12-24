@@ -210,7 +210,14 @@ $memories = [
     'UnicornCacherPL' => "Zorganizowanie pierwszego eventu o jednorożcach.\nZałożenie pierwszego kesza w Artystycznym Ogrodzie Krakowian.\nZnalezienie tysięcznego kesza.",
     'TomekS1976' => "Największym sukcesem TomkaS1976 był fakt, że na organizowany przez niego event (GCB5386) pierwszy raz przyszedł ktoś poza nim samym.",
     'Emson_' => "Osiągnięciem keszerskim, które uważam za najważniejsze w 2025 roku, jest najwięcej opublikowanych eventów w Polsce.",
+    'pigeox69' => "Najbardziej, jak zawsze, cieszą nas zdobyte FTFy. W tym roku udało nam się zalogować ich najwięcej spośród wszystkich polskich keszerów.",
+    'holdasy' => "To blył Mega rok. Ba, to był nawet GIGA rok!\n Wpadłem w Matriksa po 15 latach a rodzina zaczyna coś mówić o nałogu...\n I pamiętajcie - po pierwsze: Laby to ZUO, po drugie: na pohybel smutasom.",
+    'Team_SirWonski' => "Bawimy się dalej i poznajemy nowych keszerów. W tym roku zorganizowaliśmy 1 swój event USTRZEL SOBIE ŚNIADANIE i puściliśmy małą serię ODLOT\nDo zabawy włączył również  Hiszpania 145, który  sam już zakłada swoje skrzynki i ambitnie szuka nowych keszy.",
 ];
+
+$memoriesCounter = 0;
+$memorySliceSize = ceil(count($memories) / 11);
+$memorySlices = array_chunk($memories, $memorySliceSize, true);
 
 $slides = [
     [
@@ -260,9 +267,7 @@ $slides = [
         ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends.json', 'title' => 'Attendy', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
         ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends_krakow.json', 'title' => 'Attendy (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
     ],
-    [
-        ['type' => SlideType::MEMORIES],
-    ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '02', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2M0V', 'title' => 'Czas na pizze', 'owner' => 'Zuśka_Kluśka', 'date' => '7 lutego'],
@@ -278,6 +283,7 @@ $slides = [
         ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_krakow.json', 'title' => 'Założone kesze (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
         ['type' => SlideType::BAR_CHART, 'top' => 6, 'secret' => true, 'stats' => 'hidden_multi.json', 'title' => 'Założone kesze (multi)', 'source' => 'https://project-gc.com/Statistics/TopHidden?https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Multi-cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '03', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB358W', 'title' => 'Wizytówki i certyfikaty 4', 'owner' => 'Emson_', 'date' => '1 marca'],
@@ -288,6 +294,7 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCB1EEA', 'title' => 'GeoPloty x GeoDebaty - Co z Geocaching Małopolska?', 'owner' => 'Dominisia_krk', 'date' => '26 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB49CM', 'title' => '🌖 Spotkanie wielbicieli sera i nocnego nieba 🌒', 'owner' => 'Dominisia_krk', 'date' => '27 marca'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '04', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYQA4', 'title' => 'Święto Tarnowskiej Turystyki 2025', 'owner' => 'Emson_', 'date' => '5 kwietnia'],
@@ -301,12 +308,14 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCB5CYR', 'title' => 'Ło matko, gdzie was znowu poniosło?', 'owner' => 'Fishu', 'date' => '22 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB56XX', 'title' => 'CITO w czwartek', 'owner' => 'soratte', 'date' => '24 kwietnia'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '05', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAGGGG', 'title' => '25 Years of Geocaching – Prague 2025', 'owner' => 'PragueGigaTeam', 'date' => '3 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB57AB', 'title' => 'Koniec', 'owner' => 'Emson_', 'date' => '6 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB7A95', 'title' => 'Ło matko, gdzie nas znowu poniosło?', 'owner' => 'Dominisia_krk', 'date' => '28 maja'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '06', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB6XG3', 'title' => 'GeoSlajdowisko 13 - Islandia i ziemia Krośnieńska', 'owner' => 'yuve', 'owner2' => 'Emson_', 'date' => '4 czerwca'],
@@ -322,6 +331,7 @@ $slides = [
                 'Wygrał Najlepsi<3',
             ]],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '07', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB94K4', 'title' => 'GeoSlajdowisko 14 - Barcelona', 'owner' => 'Emson_', 'date' => '10 lipca'],
@@ -333,6 +343,7 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCAW0G1', 'title' => 'Piknik urodzinowy - jak te 10 lat zleciało!', 'owner' => 'Dominisia_krk', 'date' => '31 lipca'],
 
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '08', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYP9A', 'title' => 'Morskie opowieści - CCE', 'owner' => 'xMt', 'date' => '2 sierpnia'],
@@ -344,12 +355,14 @@ $slides = [
         ['type' => SlideType::YOUTUBE, 'title' => 'WWFM XXII - na galowo', 'id' => 'KxLkrHMWmIo'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBBEGM', 'title' => 'Koniec Wakacji', 'owner' => 'soratte', 'date' => '29 sierpnia'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '09', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB0Y8D', 'title' => 'Buła (krowa) ser i bule ;P', 'owner' => 'm2mPL', 'date' => '20 września'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBCTZ3', 'title' => '2 w 1: Pocztówkowe CITO w kamieniołomie!', 'owner' => 'barucci', 'date' => '28 września'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATMMZ', 'title' => 'Ognisko z okazji', 'owner' => 'dadoskawina', 'date' => '30 września'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '10', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBCE9Z', 'title' => 'Postcard Day w Krakowie', 'owner' => 'm2mPL', 'date' => '1 października'],
@@ -362,6 +375,7 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCBDT89', 'title' => 'CITO - 🍂 Jesień 2025 🍂', 'owner' => 'Peter_PL', 'date' => '25 października'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATKNH', 'title' => '25 lat geoachingu - ponownie na drezynach', 'owner' => 'nemrodek', 'date' => '26 października'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '11', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBC1T1', 'title' => 'Kamieniołom Mydlniki v4', 'owner' => 'kranfagel', 'owner2' => 'Dominisia_krk', 'owner3' => 'marcin3243', 'date' => '11 listopada'],
@@ -376,6 +390,7 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCAVZQ5', 'title' => '15 lat minęło - 2025 Community Celebration Event', 'owner' => 'Fishu', 'owner2' => 'm2mPL', 'date' => '26 listopada'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBECR0', 'title' => 'Międzynarodowy Dzień Ciasta 🥧🎂🍰', 'owner' => 'Emson_', 'date' => '27 listopada'],
     ],
+    [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '12', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBFCB7', 'title' => 'Majki kończy 10 (geo)latek', 'owner' => 'Majki_Obbi', 'date' => '1 grudnia'],
@@ -606,7 +621,7 @@ $slides = [
                             <h1>Wspomnienia z 2025</h1>
                         </section>
                         <?php
-                        foreach ($memories as $nick => $text):
+                        foreach ($memorySlices[$memoriesCounter++] as $nick => $text):
                             $avatarUrl = $userAvatars[$nick] ?? 'https://geocaching.com/images/default_avatar.png';
                             $photosDir = '2025/nicks/' . $nick;
                             ?>
@@ -629,7 +644,8 @@ $slides = [
                                        href="https://www.geocaching.com/p/?u=<?= urlencode($nick) ?>"><?= htmlspecialchars($nick) ?></a>
                                 </h2>
                                 <?php foreach ($photos as $photo): ?>
-                                    <img class="" src="/<?= $photosDir ?>/<?= $photo ?>" style="max-height: 700px; max-width: 700px"/>
+                                    <img class="" src="/<?= $photosDir ?>/<?= $photo ?>"
+                                         style="max-height: 700px; max-width: 700px"/>
                                 <?php endforeach; ?>
                             </section>
                         <?php endif; ?>
