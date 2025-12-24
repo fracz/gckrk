@@ -1,0 +1,489 @@
+{
+  "id": "c2df4ba0aadfc1d679a052a709bfa458",
+  "metadata": {
+    "baseType": "TopHidden",
+    "args": {
+      "filter_prr": {
+        "country": "Poland",
+        "region": "Małopolskie"
+      },
+      "filter_crc": {
+        "country": "Poland",
+        "region": "Małopolskie",
+        "county": "Kraków"
+      },
+      "filter_ts": {
+        "type": [
+          "Cache In Trash Out Event",
+          "Event Cache",
+          "Lost and Found Event Cache"
+        ]
+      },
+      "filter_hd": {
+        "fromDate": "2025-01-01",
+        "toDate": "2025-12-31"
+      },
+      "targetProfileName": "kranfagel",
+      "targetProfileId": 35530131
+    },
+    "generatedAt": 1766587217,
+    "size": 30,
+    "hint": {
+      "idx": 1
+    },
+    "skip": 0,
+    "take": 30
+  },
+  "data": [
+    {
+      "rank": 1,
+      "profile": {
+        "id": 7512515,
+        "username": "Emson_",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 32,
+      "extra": []
+    },
+    {
+      "rank": 2,
+      "profile": {
+        "id": 35530131,
+        "username": "kranfagel",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": true,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 24,
+      "extra": []
+    },
+    {
+      "rank": 3,
+      "profile": {
+        "id": 9675879,
+        "username": "najlepsi<3",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 16,
+      "extra": []
+    },
+    {
+      "rank": 4,
+      "profile": {
+        "id": 13788563,
+        "username": "Dominisia_krk",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": true
+        }
+      },
+      "cnt": 10,
+      "extra": []
+    },
+    {
+      "rank": 5,
+      "profile": {
+        "id": 38837582,
+        "username": "Quard32",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 8,
+      "extra": []
+    },
+    {
+      "rank": 6,
+      "profile": {
+        "id": 38845452,
+        "username": "udar2",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 7,
+      "extra": []
+    },
+    {
+      "rank": 7,
+      "profile": {
+        "id": 8777394,
+        "username": "barucci",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 6,
+      "extra": []
+    },
+    {
+      "rank": 7,
+      "profile": {
+        "id": 1600615,
+        "username": "soratte",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 6,
+      "extra": []
+    },
+    {
+      "rank": 7,
+      "profile": {
+        "id": 3994479,
+        "username": "m2mPL",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 6,
+      "extra": []
+    },
+    {
+      "rank": 7,
+      "profile": {
+        "id": 12554848,
+        "username": "Piętaszek",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 6,
+      "extra": []
+    },
+    {
+      "rank": 11,
+      "profile": {
+        "id": 4506711,
+        "username": "Fishu",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 5,
+      "extra": []
+    },
+    {
+      "rank": 12,
+      "profile": {
+        "id": 8298144,
+        "username": "Qinka",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 4,
+      "extra": []
+    },
+    {
+      "rank": 13,
+      "profile": {
+        "id": 16766587,
+        "username": "Kosoff",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 3,
+      "extra": []
+    },
+    {
+      "rank": 13,
+      "profile": {
+        "id": 44605457,
+        "username": "Milk_Bandit",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 3,
+      "extra": []
+    },
+    {
+      "rank": 15,
+      "profile": {
+        "id": 17431497,
+        "username": "Radek06",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 2,
+      "extra": []
+    },
+    {
+      "rank": 15,
+      "profile": {
+        "id": 8084766,
+        "username": "Svarträv",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 2,
+      "extra": []
+    },
+    {
+      "rank": 15,
+      "profile": {
+        "id": 47297082,
+        "username": "kluczdoskarbu",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 2,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 8131598,
+        "username": "Zuśka_Kluśka",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 18454930,
+        "username": "marcin3243",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": true
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 49666927,
+        "username": "UnicornCacherPL",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 37780666,
+        "username": "stara_baba",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 26983367,
+        "username": "yuve",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 13141528,
+        "username": "Einsztein27",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 43979098,
+        "username": "leneia",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": true
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 20516271,
+        "username": "daksya",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 14963271,
+        "username": "Majki_Obbi",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 21208180,
+        "username": "Iluminatornia",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 10074438,
+        "username": "Pogliś",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 40977333,
+        "username": "wiewiórka500",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "profile": {
+        "id": 27769483,
+        "username": "gorgony",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 1,
+      "extra": []
+    }
+  ]
+}

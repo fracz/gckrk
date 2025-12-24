@@ -212,16 +212,47 @@ $slides = [
         ['type' => SlideType::MEMORIES],
     ],
     [
-
         ['type' => SlideType::MONTH, 'month' => '02', 'subtitle' => 'urodzinki, debaty i erfy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2M0V', 'title' => 'Czas na pizze', 'owner' => 'Zuśka_Kluśka', 'date' => '7 lutego'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAYNWM', 'title' => 'Pele Mele Quiz - Geocachingowe Złote Myśli Finał', 'owner' => 'barucci', 'date' => '13 lutego'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2TEE', 'title' => 'Przegląd gier terenowych #1 🔍🗺️', 'owner' => 'Emson_', 'date' => '19 lutego'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2TE8', 'title' => 'Czy zjesz ze mną pączusia? 🍩', 'owner' => 'Emson_', 'date' => '27 lutego'],
     ],
     [
-
+        ['type' => SlideType::TITLE, 'title' => 'Statystyki założeń', 'bg' => '2025/images/bgs/hide.gif'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_events.json', 'title' => 'Założone eventy', 'source'=>'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_events_krakow.json', 'title' => 'Założone eventy (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'secret' => true, 'stats' => 'hidden.json', 'title' => 'Założone kesze', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_krakow.json', 'title' => 'Założone kesze (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'top' => 6, 'secret' => true, 'stats' => 'hidden_multi.json', 'title' => 'Założone kesze (multi)', 'source' => 'https://project-gc.com/Statistics/TopHidden?https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Multi-cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+    ],
+    [
         ['type' => SlideType::MONTH, 'month' => '03', 'subtitle' => 'urodzinki, debaty i erfy'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'top_finders.json', 'title' => 'Znalezienia w Małopolsce'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB358W', 'title' => 'Wizytówki i certyfikaty 4', 'owner' => 'Emson_', 'date' => '1 marca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB0RE0', 'title' => 'Muuuuszę tu posprzątać', 'owner' => 'kranfagel', 'date' => '2 marca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB3QGX', 'title' => '🎲 Planszówkowy event 🎲', 'owner' => 'Qinka', 'date' => '12 marca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAW13Y', 'title' => 'Rubik\'s CCE', 'owner' => 'Milk_Bandit', 'date' => '19 marca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB1EEA', 'title' => 'GeoPloty x GeoDebaty - Co z Geocaching Małopolska?', 'owner' => 'Dominisia_krk', 'date' => '26 marca'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB49CM', 'title' => '🌖 Spotkanie wielbicieli sera i nocnego nieba 🌒', 'owner' => 'Dominisia_krk', 'date' => '27 marca'],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '04', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAYQA4', 'title' => 'Święto Tarnowskiej Turystyki 2025', 'owner' => 'Emson_', 'date' => '5 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB3ZYT', 'title' => 'Znakujemy szlak w Szczepanowicach 🖌️🟢', 'owner' => 'Emson_', 'date' => '5 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB2J2G', 'title' => '🦄✨ Unicorn Day ✨🦄', 'owner' => 'UnicornCacherPL', 'date' => '9 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB3001', 'title' => 'GeoSlajdowisko 12 - Maroko', 'owner' => 'kranfagel', 'owner2' => 'kretes', 'date' => '14 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB2RN5', 'title' => 'Kto rano wstaje, temu wschód słońca w piżamie!', 'owner' => 'Dominisia_krk', 'owner2' => 'mugol_02', 'date' => '16 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB2RN6', 'title' => 'W Rio Leżaneiro zimno, weź piżamę i na zachód wio!', 'owner' => 'Dominisia_krk', 'owner2' => 'mugol_02', 'date' => '16 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB56QV', 'title' => 'GeoFilmowanie - cz. 1', 'owner' => 'barucci', 'date' => '16 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB5CYR', 'title' => 'Ło matko, gdzie was znowu poniosło?', 'owner' => 'Fishu', 'date' => '22 kwietnia'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB56XX', 'title' => 'CITO w czwartek', 'owner' => 'soratte', 'date' => '24 kwietnia'],
+    ],
+    [
+        ['type' => SlideType::MONTH, 'month' => '05', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCAGGGG', 'title' => '25 Years of Geocaching – Prague 2025', 'owner' => 'PragueGigaTeam', 'date' => '3 maja'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB57AB', 'title' => 'Koniec', 'owner' => 'Emson_', 'date' => '6 maja'],
+        ['type' => SlideType::EVENT, 'gccode' => 'GCB7A95', 'title' => 'Ło matko, gdzie nas znowu poniosło?', 'owner' => 'Dominisia_krk', 'date' => '28 maja'],
+
     ]
 ];
 ?>
@@ -378,7 +409,7 @@ $slides = [
                     <?php endif; ?>
                     <?php elseif ($slide['type'] === SlideType::TITLE): ?>
                         <section data-background="<?= $slide['bg'] ?>">
-                            <h1 class=" r-fit-text">Eventy</h1>
+                            <h1 class="dark-block r-fit-text"><?= $slide['title'] ?></h1>
                         </section>
                     <?php elseif ($slide['type'] === SlideType::NUMBERS): ?>
                         <section>
