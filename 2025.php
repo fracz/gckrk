@@ -82,17 +82,17 @@ $userAvatars = require __DIR__ . '/user_avatars.php';
 
         .r-stack img:nth-child(4) {
             margin-left: -60px;
-            margin-top: 30px;
+            margin-top: -70px;
         }
 
         .r-stack img:nth-child(5) {
             margin-right: -60px;
-            margin-top: 60px;
+            margin-top: -100px;
         }
 
         .r-stack img:nth-child(6) {
-            margin-left: -70px;
-            margin-top: 80px;
+            margin-left: -80px;
+            margin-top: 30px;
         }
 
         .source a {
@@ -219,6 +219,7 @@ $memories = [
     'nemrodek' => "Znalazłem cache w 3 ostatnich brakujących województwach",
     'kingagren22' => "Powrót do keszowania, po dosyć długiej przerwie. W sumie 453 znalezienia, plus te czekające na lepsze czasy... czytaj chęć, czas i motywację do zostania zalogowanymi. Dwa Mega jednego roku, dla mnie kompletna nowość. Współtowarzyszenie przy organizacji geologicznego eventu na górze Świętej Anny. Było super! Chętnie bym to powtórzyła 😊 To był dobry rok!",
     'juleczkap23' => "byłam w Pradze na swoim pierwszym GIGA i GPS Maze,\nbyłam na odsłonięciu krasnala keszerka we Wrocławiu,\nbyłam na geocaching party w Warszawie,\nbyłam na pierwszym evencie w Kolbuszowej,\nsama zorganizowałam eveny PISANKA i dzień przed podsumowaniem będzie event MORS CCE 2025",
+    'emode' => "kryzys egzystencjalno-multiakowy, na początku roku;\n samotne keszowanie z drabiną, oficjalnie bezpieczniejsze niż chodzenie po prostym w gumiakach;\n toyota aygo to padaka, ale z jakiegoś powodu robi wszystkie powiaty w pierwszym kraju;\n oraz sezon, w którym \"jakość, a nie ilość\" wchodzi tylnymi drzwiami, bo na ilość zwyczajnie nie starczyło czasu",
     'kranfagel' => 'pierwsza samodzielnie zdobyta drzewna T5',
 ];
 

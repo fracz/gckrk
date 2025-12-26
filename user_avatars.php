@@ -58,4 +58,5 @@ return [
     'juleczkap23' => 'https://img.geocaching.com/user/square250/20bd7f87-5ba3-404e-bf56-0150edea05f2.jpg',
     'Dominisia_krk' => 'https://img.geocaching.com/user/square250/675ac81e-8b69-4b48-9b31-81089ca38c72.jpg',
     'leneia' => 'https://img.geocaching.com/user/square250/d2fbe1e9-f322-4c44-9cd6-914af91e88ac.jpg',
+    'emode' => 'https://img.geocaching.com/user/square250/a6d0d965-5570-48eb-9281-2350073b4c7d.jpg',
 ];
