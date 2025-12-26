@@ -1,0 +1,839 @@
+{
+  "id": "03bdfdda512ebd70d0326658cbde5481",
+  "metadata": {
+    "baseType": "TopLoggedGeocaches",
+    "args": {
+      "filter_crc": {
+        "country": "Poland",
+        "region": "Małopolskie"
+      },
+      "filter_hd": {
+        "fromDate": "2025-01-01",
+        "toDate": "2025-12-31"
+      },
+      "filter_ld": {
+        "fromDate": "2025-01-01",
+        "toDate": "2025-12-31"
+      },
+      "targetProfileName": "kranfagel",
+      "targetProfileId": 35530131
+    },
+    "generatedAt": 1766760525,
+    "size": 971,
+    "hint": [],
+    "skip": 0,
+    "take": 30
+  },
+  "data": [
+    {
+      "rank": 1,
+      "geocache": {
+        "id": 9375669,
+        "referenceCode": "GCAJFYW",
+        "name": "Kopiec Krakusa",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 1105747,
+          "username": "100procent"
+        },
+        "favoritePoints": {
+          "count": 6,
+          "pctPremium": "5.66",
+          "wilsonScore": "2.62"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 144,
+      "extra": []
+    },
+    {
+      "rank": 2,
+      "geocache": {
+        "id": 9852222,
+        "referenceCode": "GCB3FVH",
+        "name": "Tarnowski Rynek",
+        "location": "Poland / Małopolskie / Tarnów",
+        "owner": {
+          "id": 46283861,
+          "username": "Gwiazdeczka_"
+        },
+        "favoritePoints": {
+          "count": 2,
+          "pctPremium": "3.03",
+          "wilsonScore": "0.83"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 136,
+      "extra": []
+    },
+    {
+      "rank": 3,
+      "geocache": {
+        "id": 10006145,
+        "referenceCode": "GCB8N0T",
+        "name": "Wesołe krówki / Happy cows ",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 48740995,
+          "username": "EkaSyr_Mantis"
+        },
+        "favoritePoints": {
+          "count": 3,
+          "pctPremium": "3.41",
+          "wilsonScore": "1.17"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 125,
+      "extra": []
+    },
+    {
+      "rank": 4,
+      "geocache": {
+        "id": 9854434,
+        "referenceCode": "GCB3J4X",
+        "name": "Salwator",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 11070372,
+          "username": "bogna.czechowska"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 110,
+      "extra": []
+    },
+    {
+      "rank": 5,
+      "geocache": {
+        "id": 9990478,
+        "referenceCode": "GCB84PD",
+        "name": "#2 Trójca Wieszczów Narodowych ''Adam Mickiewicz\"",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49313360,
+          "username": "Tutmozis"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 109,
+      "extra": []
+    },
+    {
+      "rank": 6,
+      "geocache": {
+        "id": 9779630,
+        "referenceCode": "GCB129W",
+        "name": "To my, z \"Greenpeace'u\" 🌳 🕊️ 🦎",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 8298144,
+          "username": "Qinka"
+        },
+        "favoritePoints": {
+          "count": 26,
+          "pctPremium": "39.39",
+          "wilsonScore": "28.50"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 92,
+      "extra": []
+    },
+    {
+      "rank": 7,
+      "geocache": {
+        "id": 9807322,
+        "referenceCode": "GCB2045",
+        "name": "Dworek Potockich ",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49902960,
+          "username": "AsereczeKK"
+        },
+        "favoritePoints": {
+          "count": 2,
+          "pctPremium": "4.26",
+          "wilsonScore": "1.17"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 88,
+      "extra": []
+    },
+    {
+      "rank": 8,
+      "geocache": {
+        "id": 9988819,
+        "referenceCode": "GCB82ZX",
+        "name": "#1Trójca Wieszczów Narodowych ''Juliusz Słowacki''",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49313360,
+          "username": "Tutmozis"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 86,
+      "extra": []
+    },
+    {
+      "rank": 9,
+      "geocache": {
+        "id": 9937842,
+        "referenceCode": "GCB6BYF",
+        "name": "Nieopodal ,,Harcówki''",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49313360,
+          "username": "Tutmozis"
+        },
+        "favoritePoints": {
+          "count": 1,
+          "pctPremium": "2.50",
+          "wilsonScore": "0.44"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 82,
+      "extra": []
+    },
+    {
+      "rank": 10,
+      "geocache": {
+        "id": 9849837,
+        "referenceCode": "GCB3DBK",
+        "name": "słup na ulicy Klonowica",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 47259159,
+          "username": "stsq"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 79,
+      "extra": []
+    },
+    {
+      "rank": 11,
+      "geocache": {
+        "id": 9953424,
+        "referenceCode": "GCB6X54",
+        "name": "Bolesław Chrobry",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49313360,
+          "username": "Tutmozis"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 75,
+      "extra": []
+    },
+    {
+      "rank": 12,
+      "geocache": {
+        "id": 9974886,
+        "referenceCode": "GCB7KFE",
+        "name": "Bitwa pod Grunwaldem",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49313360,
+          "username": "Tutmozis"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": true,
+          "isArchived": false
+        }
+      },
+      "cnt": 74,
+      "extra": []
+    },
+    {
+      "rank": 13,
+      "geocache": {
+        "id": 9838143,
+        "referenceCode": "GCB316C",
+        "name": "Uroczysko Łasina – zagubiona kapliczka",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 14963271,
+          "username": "Majki_Obbi"
+        },
+        "favoritePoints": {
+          "count": 16,
+          "pctPremium": "33.33",
+          "wilsonScore": "21.68"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 71,
+      "extra": []
+    },
+    {
+      "rank": 14,
+      "geocache": {
+        "id": 10048186,
+        "referenceCode": "GCBA2QZ",
+        "name": "Kościół Świętego Krzyża w Zakopanem",
+        "location": "Poland / Małopolskie / Tatrzański",
+        "owner": {
+          "id": 37566140,
+          "username": "Andrzejsoon"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 69,
+      "extra": []
+    },
+    {
+      "rank": 14,
+      "geocache": {
+        "id": 9664657,
+        "referenceCode": "GCAX6N2",
+        "name": "Fabryczny Ogród Krakowian",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 44133533,
+          "username": "Beata1988"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 69,
+      "extra": []
+    },
+    {
+      "rank": 16,
+      "geocache": {
+        "id": 9951393,
+        "referenceCode": "GCB6V1K",
+        "name": "Ære til treet som forener folk og land",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 794494,
+          "username": "elales"
+        },
+        "favoritePoints": {
+          "count": 8,
+          "pctPremium": "15.69",
+          "wilsonScore": "8.17"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 68,
+      "extra": []
+    },
+    {
+      "rank": 17,
+      "geocache": {
+        "id": 9986464,
+        "referenceCode": "GCB80GY",
+        "name": "Bagry #2",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 21708295,
+          "username": "Prezes201"
+        },
+        "favoritePoints": {
+          "count": 12,
+          "pctPremium": "24.00",
+          "wilsonScore": "14.30"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 61,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "geocache": {
+        "id": 9931307,
+        "referenceCode": "GCB654N",
+        "name": "Artystyczny Ogród Krakowian",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49666927,
+          "username": "UnicornCacherPL"
+        },
+        "favoritePoints": {
+          "count": 17,
+          "pctPremium": "34.69",
+          "wilsonScore": "22.92"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 59,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "geocache": {
+        "id": 9455953,
+        "referenceCode": "GCAN6FN",
+        "name": " 💋 Kiss&Ride 🚘",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 13141528,
+          "username": "Einsztein27"
+        },
+        "favoritePoints": {
+          "count": 9,
+          "pctPremium": "17.31",
+          "wilsonScore": "9.38"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 59,
+      "extra": []
+    },
+    {
+      "rank": 20,
+      "geocache": {
+        "id": 9997605,
+        "referenceCode": "GCB8C4A",
+        "name": "#3Trójca Wieszczów Narodowych 'Zygmunt Krasiński'",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49313360,
+          "username": "Tutmozis"
+        },
+        "favoritePoints": {
+          "count": 1,
+          "pctPremium": "3.23",
+          "wilsonScore": "0.57"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 58,
+      "extra": []
+    },
+    {
+      "rank": 20,
+      "geocache": {
+        "id": 9902795,
+        "referenceCode": "GCB56EY",
+        "name": "Park miejski im. Lecha Kaczyńskiego ",
+        "location": "Poland / Małopolskie / Tatrzański",
+        "owner": {
+          "id": 31379562,
+          "username": "qba_sam"
+        },
+        "favoritePoints": {
+          "count": 8,
+          "pctPremium": "14.55",
+          "wilsonScore": "7.56"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 58,
+      "extra": []
+    },
+    {
+      "rank": 22,
+      "geocache": {
+        "id": 9996644,
+        "referenceCode": "GCB8B4A",
+        "name": "Bagry #6",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 21708295,
+          "username": "Prezes201"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 57,
+      "extra": []
+    },
+    {
+      "rank": 23,
+      "geocache": {
+        "id": 9868409,
+        "referenceCode": "GCB41NP",
+        "name": "Mostek park Aleksandry",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 49365180,
+          "username": "Rode809"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": true
+        }
+      },
+      "cnt": 56,
+      "extra": []
+    },
+    {
+      "rank": 24,
+      "geocache": {
+        "id": 9989241,
+        "referenceCode": "GCB83DG",
+        "name": "Bagry #3",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 21708295,
+          "username": "Prezes201"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 55,
+      "extra": []
+    },
+    {
+      "rank": 25,
+      "geocache": {
+        "id": 9589855,
+        "referenceCode": "GCATNV3",
+        "name": "Krakowskie podsumowanie 2024",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 35530131,
+          "username": "kranfagel"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": true
+        }
+      },
+      "cnt": 54,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "geocache": {
+        "id": 9589553,
+        "referenceCode": "GCATNGB",
+        "name": "GIFF 2025 Kraków - CCE",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 20516271,
+          "username": "daksya"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": true
+        }
+      },
+      "cnt": 53,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "geocache": {
+        "id": 9996647,
+        "referenceCode": "GCB8B4D",
+        "name": "Bagry #7",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 21708295,
+          "username": "Prezes201"
+        },
+        "favoritePoints": {
+          "count": 4,
+          "pctPremium": "8.33",
+          "wilsonScore": "3.29"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 53,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "geocache": {
+        "id": 9966443,
+        "referenceCode": "GCB7AP3",
+        "name": "Kiedyś tu będzie Trasa Nowobagrowa",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 21210618,
+          "username": "MarcinHe"
+        },
+        "favoritePoints": {
+          "count": 0,
+          "pctPremium": "0.00",
+          "wilsonScore": "0.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 53,
+      "extra": []
+    },
+    {
+      "rank": 29,
+      "geocache": {
+        "id": 9876440,
+        "referenceCode": "GCB4A1R",
+        "name": "Kraków Airport",
+        "location": "Poland / Małopolskie / Krakowski",
+        "owner": {
+          "id": 35530131,
+          "username": "kranfagel"
+        },
+        "favoritePoints": {
+          "count": 3,
+          "pctPremium": "10.34",
+          "wilsonScore": "3.58"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 50,
+      "extra": []
+    },
+    {
+      "rank": 30,
+      "geocache": {
+        "id": 10146412,
+        "referenceCode": "GCBDBZH",
+        "name": "Kamieniołomowe Zuo w Pięciu Odsłonach - Bonus Lab",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 8777394,
+          "username": "barucci"
+        },
+        "favoritePoints": {
+          "count": 3,
+          "pctPremium": "7.69",
+          "wilsonScore": "2.65"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 49,
+      "extra": []
+    }
+  ]
+}

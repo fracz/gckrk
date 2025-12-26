@@ -1,0 +1,835 @@
+{
+  "id": "0b1a15c0d91eb94788ec3af39630dc7f",
+  "metadata": {
+    "baseType": "TopLoggedGeocaches",
+    "args": {
+      "filter_crc": {
+        "country": "Poland",
+        "region": "Małopolskie"
+      },
+      "filter_ld": {
+        "fromDate": "2025-01-01",
+        "toDate": "2025-12-31"
+      },
+      "targetProfileName": "kranfagel",
+      "targetProfileId": 35530131
+    },
+    "generatedAt": 1766760119,
+    "size": 6677,
+    "hint": [],
+    "skip": 0,
+    "take": 30
+  },
+  "data": [
+    {
+      "rank": 1,
+      "geocache": {
+        "id": 1545541,
+        "referenceCode": "GC23N23",
+        "name": "Na Rozstaju",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 1429023,
+          "username": "toczygroszek"
+        },
+        "favoritePoints": {
+          "count": 167,
+          "pctPremium": "3.84",
+          "wilsonScore": "3.31"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": true,
+          "isArchived": false
+        }
+      },
+      "cnt": 1180,
+      "extra": []
+    },
+    {
+      "rank": 2,
+      "geocache": {
+        "id": 7246650,
+        "referenceCode": "GC891GV",
+        "name": "2.1👻Eros bendato ▫️🗿",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 7927607,
+          "username": "niuton"
+        },
+        "favoritePoints": {
+          "count": 238,
+          "pctPremium": "7.15",
+          "wilsonScore": "6.33"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 748,
+      "extra": []
+    },
+    {
+      "rank": 3,
+      "geocache": {
+        "id": 1822644,
+        "referenceCode": "GC2CZCX",
+        "name": "Wawel",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 1429023,
+          "username": "toczygroszek"
+        },
+        "favoritePoints": {
+          "count": 364,
+          "pctPremium": "10.30",
+          "wilsonScore": "9.34"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 732,
+      "extra": []
+    },
+    {
+      "rank": 4,
+      "geocache": {
+        "id": 9378243,
+        "referenceCode": "GCAJJKX",
+        "name": "Smok 🐉 The dragon",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 15868211,
+          "username": "pigeox69"
+        },
+        "favoritePoints": {
+          "count": 209,
+          "pctPremium": "14.53",
+          "wilsonScore": "12.81"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 686,
+      "extra": []
+    },
+    {
+      "rank": 5,
+      "geocache": {
+        "id": 8744531,
+        "referenceCode": "GC9XA6J",
+        "name": "Mały Rynek",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 35530131,
+          "username": "kranfagel"
+        },
+        "favoritePoints": {
+          "count": 26,
+          "pctPremium": "1.38",
+          "wilsonScore": "0.94"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 669,
+      "extra": []
+    },
+    {
+      "rank": 6,
+      "geocache": {
+        "id": 7247859,
+        "referenceCode": "GC892RV",
+        "name": "Witaj w Krakowie / Welcome to Krakow",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 19536485,
+          "username": "dami70"
+        },
+        "favoritePoints": {
+          "count": 124,
+          "pctPremium": "5.69",
+          "wilsonScore": "4.79"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 612,
+      "extra": []
+    },
+    {
+      "rank": 7,
+      "geocache": {
+        "id": 6390401,
+        "referenceCode": "GC7B9GX",
+        "name": "Wawelski Czakram / Wawel Chakra",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 7954284,
+          "username": "Scout_RB"
+        },
+        "favoritePoints": {
+          "count": 357,
+          "pctPremium": "10.01",
+          "wilsonScore": "9.07"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 575,
+      "extra": []
+    },
+    {
+      "rank": 8,
+      "geocache": {
+        "id": 7247025,
+        "referenceCode": "GC891XY",
+        "name": "The Church of Saints Peter and Paul",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 10074438,
+          "username": "Pogliś"
+        },
+        "favoritePoints": {
+          "count": 128,
+          "pctPremium": "4.70",
+          "wilsonScore": "3.97"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 564,
+      "extra": []
+    },
+    {
+      "rank": 9,
+      "geocache": {
+        "id": 1440726,
+        "referenceCode": "GC204ZZ",
+        "name": "Kabaret Piwnica pod Baranami",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 794494,
+          "username": "elales"
+        },
+        "favoritePoints": {
+          "count": 154,
+          "pctPremium": "4.70",
+          "wilsonScore": "4.03"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 551,
+      "extra": []
+    },
+    {
+      "rank": 10,
+      "geocache": {
+        "id": 6390881,
+        "referenceCode": "GC7BA1C",
+        "name": "Kocham Kraków",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 12302479,
+          "username": "fzhut"
+        },
+        "favoritePoints": {
+          "count": 415,
+          "pctPremium": "12.02",
+          "wilsonScore": "10.98"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 492,
+      "extra": []
+    },
+    {
+      "rank": 11,
+      "geocache": {
+        "id": 6283397,
+        "referenceCode": "GC77P65",
+        "name": "♥ Krakow: One of the Oldest Churches [PL/EN]",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 14079413,
+          "username": "A&MP"
+        },
+        "favoritePoints": {
+          "count": 1611,
+          "pctPremium": "61.12",
+          "wilsonScore": "59.24"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": true,
+          "isArchived": false
+        }
+      },
+      "cnt": 474,
+      "extra": []
+    },
+    {
+      "rank": 12,
+      "geocache": {
+        "id": 7247879,
+        "referenceCode": "GC892TF",
+        "name": "Okno Papieskie",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 20112746,
+          "username": "Mazak4444"
+        },
+        "favoritePoints": {
+          "count": 128,
+          "pctPremium": "5.29",
+          "wilsonScore": "4.47"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 469,
+      "extra": []
+    },
+    {
+      "rank": 13,
+      "geocache": {
+        "id": 4114740,
+        "referenceCode": "GC4WXGF",
+        "name": "Stara Synagoga",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 6150310,
+          "username": "dadoskawina"
+        },
+        "favoritePoints": {
+          "count": 80,
+          "pctPremium": "2.70",
+          "wilsonScore": "2.17"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 424,
+      "extra": []
+    },
+    {
+      "rank": 14,
+      "geocache": {
+        "id": 7246776,
+        "referenceCode": "GC891MX",
+        "name": "Auschwitz",
+        "location": "Poland / Małopolskie / Oświęcimski",
+        "owner": {
+          "id": 8577494,
+          "username": "Miszczus"
+        },
+        "favoritePoints": {
+          "count": 312,
+          "pctPremium": "20.80",
+          "wilsonScore": "18.82"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 422,
+      "extra": []
+    },
+    {
+      "rank": 15,
+      "geocache": {
+        "id": 7728376,
+        "referenceCode": "GC8T6TC",
+        "name": "Plac Wolnica",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 8759787,
+          "username": "SuperKrystian"
+        },
+        "favoritePoints": {
+          "count": 277,
+          "pctPremium": "20.53",
+          "wilsonScore": "18.46"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 399,
+      "extra": []
+    },
+    {
+      "rank": 15,
+      "geocache": {
+        "id": 2929167,
+        "referenceCode": "GC3K3V6",
+        "name": "Pałac  Pana  Prezydenta / Mayor's Palace",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 4731454,
+          "username": "vasco01"
+        },
+        "favoritePoints": {
+          "count": 38,
+          "pctPremium": "1.04",
+          "wilsonScore": "0.76"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 399,
+      "extra": []
+    },
+    {
+      "rank": 17,
+      "geocache": {
+        "id": 9170990,
+        "referenceCode": "GCABKZA",
+        "name": "Park Wisławy Szymborskiej ",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 35530131,
+          "username": "kranfagel"
+        },
+        "favoritePoints": {
+          "count": 23,
+          "pctPremium": "4.55",
+          "wilsonScore": "3.05"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 392,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "geocache": {
+        "id": 7246532,
+        "referenceCode": "GC891D1",
+        "name": "DŻOK",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 7399089,
+          "username": "longmen76"
+        },
+        "favoritePoints": {
+          "count": 179,
+          "pctPremium": "11.03",
+          "wilsonScore": "9.59"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 367,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "geocache": {
+        "id": 7246856,
+        "referenceCode": "GC891QF",
+        "name": "Welcome to Krakow ",
+        "location": "Poland / Małopolskie / Krakowski",
+        "owner": {
+          "id": 8981860,
+          "username": "Zator&Sak"
+        },
+        "favoritePoints": {
+          "count": 100,
+          "pctPremium": "7.52",
+          "wilsonScore": "6.23"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 367,
+      "extra": []
+    },
+    {
+      "rank": 20,
+      "geocache": {
+        "id": 6913226,
+        "referenceCode": "GC7XVJ7",
+        "name": "Kościół św Katarzyny",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 19536485,
+          "username": "dami70"
+        },
+        "favoritePoints": {
+          "count": 18,
+          "pctPremium": "1.36",
+          "wilsonScore": "0.86"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 352,
+      "extra": []
+    },
+    {
+      "rank": 21,
+      "geocache": {
+        "id": 955244,
+        "referenceCode": "GC1EVT8",
+        "name": "Chairs - Ghetto Memorial",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 794494,
+          "username": "elales"
+        },
+        "favoritePoints": {
+          "count": 109,
+          "pctPremium": "5.61",
+          "wilsonScore": "4.67"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 341,
+      "extra": []
+    },
+    {
+      "rank": 22,
+      "geocache": {
+        "id": 9680465,
+        "referenceCode": "GCAXQ40",
+        "name": "Kopalnia Soli \"Wieliczka\" #2",
+        "location": "Poland / Małopolskie / Wielicki",
+        "owner": {
+          "id": 44308024,
+          "username": "Leon17171717"
+        },
+        "favoritePoints": {
+          "count": 5,
+          "pctPremium": "1.85",
+          "wilsonScore": "0.79"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 314,
+      "extra": []
+    },
+    {
+      "rank": 23,
+      "geocache": {
+        "id": 2181940,
+        "referenceCode": "GC2T193",
+        "name": "Plac Matejki",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 794494,
+          "username": "elales"
+        },
+        "favoritePoints": {
+          "count": 59,
+          "pctPremium": "2.64",
+          "wilsonScore": "2.05"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 309,
+      "extra": []
+    },
+    {
+      "rank": 24,
+      "geocache": {
+        "id": 9526640,
+        "referenceCode": "GCAQJ1X",
+        "name": "Mosty Krakowskie #6 Kładka Ojca Bernatka",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 33862215,
+          "username": "Kacper_Makar"
+        },
+        "favoritePoints": {
+          "count": 5,
+          "pctPremium": "1.42",
+          "wilsonScore": "0.61"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": true
+        }
+      },
+      "cnt": 308,
+      "extra": []
+    },
+    {
+      "rank": 25,
+      "geocache": {
+        "id": 9378814,
+        "referenceCode": "GCAJK7A",
+        "name": "Wieliczka (Virtual Reward 4.0) PL/EN",
+        "location": "Poland / Małopolskie / Wielicki",
+        "owner": {
+          "id": 32621232,
+          "username": "ptaki_polski_13"
+        },
+        "favoritePoints": {
+          "count": 63,
+          "pctPremium": "11.38",
+          "wilsonScore": "8.98"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 294,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "geocache": {
+        "id": 4069204,
+        "referenceCode": "GC4VC4J",
+        "name": "Świnoujście",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 6150310,
+          "username": "dadoskawina"
+        },
+        "favoritePoints": {
+          "count": 63,
+          "pctPremium": "5.86",
+          "wilsonScore": "4.61"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 284,
+      "extra": []
+    },
+    {
+      "rank": 27,
+      "geocache": {
+        "id": 8527858,
+        "referenceCode": "GC9N1Q4",
+        "name": "Bazylika św. Stanisława",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 19536485,
+          "username": "dami70"
+        },
+        "favoritePoints": {
+          "count": 77,
+          "pctPremium": "13.60",
+          "wilsonScore": "11.02"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 275,
+      "extra": []
+    },
+    {
+      "rank": 28,
+      "geocache": {
+        "id": 2393591,
+        "referenceCode": "GC314GH",
+        "name": "Rynek Podgórski",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 3735368,
+          "username": "holdasy"
+        },
+        "favoritePoints": {
+          "count": 1,
+          "pctPremium": "0.16",
+          "wilsonScore": "0.03"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 264,
+      "extra": []
+    },
+    {
+      "rank": 29,
+      "geocache": {
+        "id": 1521278,
+        "referenceCode": "GC22VTD",
+        "name": "Massolit",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 794494,
+          "username": "elales"
+        },
+        "favoritePoints": {
+          "count": 1354,
+          "pctPremium": "51.31",
+          "wilsonScore": "49.40"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 249,
+      "extra": []
+    },
+    {
+      "rank": 30,
+      "geocache": {
+        "id": 9526658,
+        "referenceCode": "GCAQJ2F",
+        "name": "Mosty Krakowskie #7 Most Józefa Piłsudskiego ",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 33862215,
+          "username": "Kacper_Makar"
+        },
+        "favoritePoints": {
+          "count": 6,
+          "pctPremium": "2.38",
+          "wilsonScore": "1.10"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": true
+        }
+      },
+      "cnt": 237,
+      "extra": []
+    }
+  ]
+}

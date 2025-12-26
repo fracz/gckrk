@@ -153,6 +153,7 @@ enum SlideType
     case TITLE;
     case NUMBERS;
     case YOUTUBE;
+    case CACHE_POINTS;
 }
 
 $memories = [
@@ -217,7 +218,7 @@ $memories = [
     'kingagren22' => "Powrót do keszowania, po dosyć długiej przerwie. W sumie 453 znalezienia, plus te czekające na lepsze czasy... czytaj chęć, czas i motywację do zostania zalogowanymi. Dwa Mega jednego roku, dla mnie kompletna nowość. Współtowarzyszenie przy organizacji geologicznego eventu na górze Świętej Anny. Było super! Chętnie bym to powtórzyła 😊 To był dobry rok!",
     'juleczkap23' => "byłam w Pradze na swoim pierwszym GIGA i GPS Maze,\nbyłam na odsłonięciu krasnala keszerka we Wrocławiu,\nbyłam na geocaching party w Warszawie,\nbyłam na pierwszym evencie w Kolbuszowej,\nsama zorganizowałam eveny PISANKA i dzień przed podsumowaniem będzie event MORS CCE 2025",
     'leneia' => 'Keszują z nami dwa pieski!',
-    'Dominisia_krk' => 'A co tam x eventów w tym roku. Liczby to liczby. Mnie najbardziej cieszy, że nasza społeczność dobrze się ma, rozwija i widać to jeszcze wyraźniej niż w zeszłym roku. Dzięki Wam! :)',
+    'Dominisia_krk' => 'A co tam 258 eventów w tym roku. Liczby to liczby. Mnie najbardziej cieszy, że nasza społeczność dobrze się ma, rozwija i widać to jeszcze wyraźniej niż w zeszłym roku. Dzięki Wam! :)',
 ];
 
 $memoriesCounter = 0;
@@ -269,8 +270,6 @@ $slides = [
                 ['label' => 'Liczba CITO w Krakowie', 'number' => 10],
                 ['label' => 'Liczba CITO w Małopolsce', 'number' => 14, 'additional' => '(12 w 2024 r.)'],
             ]],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends.json', 'title' => 'Attendy', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends_krakow.json', 'title' => 'Attendy (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -281,12 +280,9 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2TE8', 'title' => 'Czy zjesz ze mną pączusia? 🍩', 'owner' => 'Emson_', 'date' => '27 lutego'],
     ],
     [
-        ['type' => SlideType::TITLE, 'title' => 'Statystyki założeń', 'bg' => '2025/images/bgs/hide.gif'],
+        ['type' => SlideType::TITLE, 'title' => 'Kto zakłada eventy?', 'bg' => '2025/images/bgs/hide.gif'],
         ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_events.json', 'title' => 'Założone eventy', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
         ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_events_krakow.json', 'title' => 'Założone eventy (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'secret' => true, 'stats' => 'hidden.json', 'title' => 'Założone kesze', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_krakow.json', 'title' => 'Założone kesze (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'top' => 6, 'secret' => true, 'stats' => 'hidden_multi.json', 'title' => 'Założone kesze (multi)', 'source' => 'https://project-gc.com/Statistics/TopHidden?https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Multi-cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -322,12 +318,25 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCB5CYR', 'title' => 'Ło matko, gdzie was znowu poniosło?', 'owner' => 'Fishu', 'date' => '22 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB56XX', 'title' => 'CITO w czwartek', 'owner' => 'soratte', 'date' => '24 kwietnia'],
     ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Kesze w Małopolsce'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'cache_finds.json', 'title' => 'Znalezienia', 'top' => 6, 'source' => 'https://project-gc.com/Statistics/TopLoggedGeocaches?filter_pr_profileName=&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'cache_finds_2025.json', 'title' => 'Znalezienia keszy z 2025', 'top' => 6, 'source' => 'https://project-gc.com/Statistics/TopLoggedGeocaches?filter_pr_profileName=&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::CACHE_POINTS, 'stats' => 'cache_wilson_2025.json', 'title' => 'Top kesze 2025 (Wilson)', 'top' => 10, 'source' => 'https://project-gc.com/Statistics/TopFavWilson?filter_pr_profileName=&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+
+    ],
     [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '05', 'subtitle' => 'GIGA, koniec'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAGGGG', 'title' => '25 Years of Geocaching – Prague 2025', 'owner' => 'PragueGigaTeam', 'date' => '3 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB57AB', 'title' => 'Koniec', 'owner' => 'Emson_', 'date' => '6 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB7A95', 'title' => 'Ło matko, gdzie nas znowu poniosło?', 'owner' => 'Dominisia_krk', 'date' => '28 maja'],
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'FTFy'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'ftfs.json', 'title' => 'FTFy', 'source' => 'https://project-gc.com/Statistics/TopFTF?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_pd_fromDate=2025-01-01&filter_pd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'ftfs_region.json', 'title' => 'FTFy w Małopolsce', 'source' => 'https://project-gc.com/Statistics/TopFTF?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=&filter_pd_fromDate=2025-01-01&filter_pd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'ftfs_krakow.json', 'title' => 'FTFy w Krakowie', 'source' => 'https://project-gc.com/Statistics/TopFTF?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=&filter_pd_fromDate=2025-01-01&filter_pd_toDate=2025-12-31&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -345,6 +354,13 @@ $slides = [
                 'Wygrał Najlepsi<3',
             ]],
     ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Statystyki założeń', 'bg' => '2025/images/bgs/hide.gif'],
+        ['type' => SlideType::BAR_CHART, 'secret' => true, 'stats' => 'hidden.json', 'title' => 'Założone kesze', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'hidden_krakow.json', 'title' => 'Założone kesze (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Earthcache&filter_ts_type%5B%5D=Letterbox+Hybrid&filter_ts_type%5B%5D=Multi-cache&filter_ts_type%5B%5D=Traditional+Cache&filter_ts_type%5B%5D=Unknown+Cache&filter_ts_type%5B%5D=Virtual+Cache&filter_ts_type%5B%5D=Wherigo+Cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'top' => 6, 'secret' => true, 'stats' => 'hidden_multi.json', 'title' => 'Założone kesze (multi)', 'source' => 'https://project-gc.com/Statistics/TopHidden?https://project-gc.com/Statistics/TopHidden?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Multi-cache&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'top' => 9, 'stats' => 'hidden_fp_hindex.json', 'title' => 'H-indeks', 'source' => 'https://project-gc.com/Statistics/TopFPhIndex?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_hd_fromDate=2025-01-01&filter_hd_toDate=2025-12-31&submit=Filter'],
+    ],
     [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '07', 'subtitle' => 'pikniki, kąpiele, bransoletki, zawody'],
@@ -356,6 +372,13 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCB1Y11', 'title' => 'Log & Roll 2025', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'owner3' => 'marcin3243', 'date' => '26 lipca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAW0G1', 'title' => 'Piknik urodzinowy - jak te 10 lat zleciało!', 'owner' => 'Dominisia_krk', 'date' => '31 lipca'],
 
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Podróże'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_countries.json', 'title' => 'Odwiedzone kraje', 'source' => 'https://project-gc.com/Statistics/TopNumCountries?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_region.json', 'title' => 'Odwiedzone regiony', 'source' => 'https://project-gc.com/Statistics/TopRegionFinders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_counties.json', 'title' => 'Odwiedzone powiaty', 'source' => 'https://project-gc.com/Statistics/TopCountyFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_counties_pl.json', 'title' => 'Odwiedzone powiaty (PL)', 'source' => 'https://project-gc.com/Statistics/TopCountyFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -369,12 +392,24 @@ $slides = [
         ['type' => SlideType::YOUTUBE, 'title' => 'WWFM XXII - na galowo', 'id' => 'KxLkrHMWmIo'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBBEGM', 'title' => 'Koniec Wakacji', 'owner' => 'soratte', 'date' => '29 sierpnia'],
     ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Uczestnictwo w eventach'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends.json', 'title' => 'Attendy', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends_krakow.json', 'title' => 'Attendy (Kraków)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ts_type%5B%5D=Cache+In+Trash+Out+Event&filter_ts_type%5B%5D=Event+Cache&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ts_type%5B%5D=Lost+and+Found+Event+Cache&filter_ts_type%5B%5D=Mega-Event+Cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends_bp.json', 'top' => 7, 'title' => 'Attendy (Block Party)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'events_attends_cce.json', 'title' => 'Attendy (CCE)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Groundspeak+Block+Party&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+    ],
     [['type' => SlideType::MEMORIES]],
     [
         ['type' => SlideType::MONTH, 'month' => '09', 'subtitle' => 'pocztówki, ogniska, bule'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB0Y8D', 'title' => 'Buła (krowa) ser i bule ;P', 'owner' => 'm2mPL', 'date' => '20 września'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBCTZ3', 'title' => '2 w 1: Pocztówkowe CITO w kamieniołomie!', 'owner' => 'barucci', 'date' => '28 września'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATMMZ', 'title' => 'Ognisko z okazji', 'owner' => 'dadoskawina', 'date' => '30 września'],
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Quality Geocaching'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_fp.json', 'title' => 'Top FP', 'source' => 'https://project-gc.com/Statistics/TopFPLogged?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_md.json', 'title' => 'Top MD', 'source' => 'https://project-gc.com/Statistics/TopMDCachingPoints?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -388,6 +423,11 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYQAR', 'title' => '✨ Magiczne Geourodziny – 12 lat przygód ✨', 'owner' => 'Qinka', 'date' => '21 października'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBDT89', 'title' => 'CITO - 🍂 Jesień 2025 🍂', 'owner' => 'Peter_PL', 'date' => '25 października'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATKNH', 'title' => '25 lat geoachingu - ponownie na drezynach', 'owner' => 'nemrodek', 'date' => '26 października'],
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Kącik statsiarza'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_photos.json', 'title' => 'Liczba zdjęć', 'source' => 'https://project-gc.com/Statistics/TopLogImageUploaders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_points.json', 'title' => 'Top D+T / day', 'source' => 'https://project-gc.com/Statistics/TopPointsDay?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -403,6 +443,10 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCATNMJ', 'title' => '🎊 CCE - Świetujemy i wspominamy 🎉', 'owner' => 'Peter_PL', 'date' => '25 listopada'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAVZQ5', 'title' => '15 lat minęło - 2025 Community Celebration Event', 'owner' => 'Fishu', 'owner2' => 'm2mPL', 'date' => '26 listopada'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBECR0', 'title' => 'Międzynarodowy Dzień Ciasta 🥧🎂🍰', 'owner' => 'Emson_', 'date' => '27 listopada'],
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Stare kesze'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_hidden_month.json', 'title' => 'Znalezione miesiące (Jasmer)', 'source' => 'https://project-gc.com/Statistics/TopLogImageUploaders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -438,8 +482,16 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYNV4', 'title' => 'Christmas Jigsaw - CCE', 'owner' => 'Milk_Bandit', 'date' => '23 grudnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBG75X', 'title' => 'A co było pod choinką?', 'owner' => 'Svarträv', 'date' => '25 grudnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAZWMY', 'title' => 'MORS CCE 2025', 'owner' => 'juleczkap23', 'date' => '27 grudnia'],
-
-    ]
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Znalezienia'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_finders.json', 'title' => 'Found it!', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'secret' => true, 'stats' => 'top_finders_region.json', 'title' => 'Found it! - Małopolska', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'secret' => true, 'stats' => 'top_finders_krakow.json', 'title' => 'Found it! - Kraków', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_multi.json', 'title' => 'Found it! - Multi', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Multi-cache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_large.json', 'title' => 'Found it! - Large', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_size%5B%5D=Large&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_ec.json', 'title' => 'Found it! - EarthCache', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ts_type%5B%5D=Earthcache&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+    ],
 ];
 ?>
 
@@ -676,10 +728,33 @@ $slides = [
                             </section>
                         <?php endif; ?>
                         <?php endforeach; ?>
+                    <?php elseif ($slide['type'] === SlideType::CACHE_POINTS):
+                        $data = json_decode(file_get_contents(__DIR__ . '/2025/stats/' . $slide['stats']), true);
+                        $data = array_slice($data['data'], 0, $slide['top'] ?? 10);
+                        ?>
+                        <section>
+                            <h1 style="font-size: 2.5em "><?= $slide['title'] ?></h1>
+                            <ol>
+                                <?php foreach ($data as $row): ?>
+                                    <li class="fragment">
+                                        <a href="https://coord.info/<?= $row['geocache']['referenceCode'] ?>"><?= $row['geocache']['referenceCode'] ?></a>
+                                        <?= $row['geocache']['name'] ?>
+                                        <a target="_blank"
+                                           href="https://www.geocaching.com/p/?u=<?= $row['geocache']['owner']['username'] ?>"><?= $row['geocache']['owner']['username'] ?></a>
+                                        💙<?= $row['geocache']['favoritePoints']['count'] ?>
+                                    </li>
+                                <?php endforeach; ?>
+                            </ol>
+                            <?php if ($slide['source'] ?? false): ?>
+                                <div class="source">
+                                    <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
+                                </div>
+                            <?php endif; ?>
+                        </section>
                     <?php elseif ($slide['type'] === SlideType::BAR_CHART):
                         $data = json_decode(file_get_contents(__DIR__ . '/2025/stats/' . $slide['stats']), true);
                         $data = array_slice($data['data'], 0, $slide['top'] ?? 10);
-                        $nicks = array_map(fn($row) => $row['profile']['username'], $data);
+                        $nicks = array_map(fn($row) => isset($row['profile']) ? $row['profile']['username'] : $row['geocache']['name'], $data);
                         $values = array_map(fn($row) => $row['cnt'], $data);
                         $anonymousData = ['data' => ['labels' => array_map(fn($n) => '?', $nicks), 'datasets' => [['data' => $values]]]];
                         $chartData = ['data' => ['labels' => $nicks, 'datasets' => [['data' => $values]]]];
@@ -694,10 +769,10 @@ $slides = [
                                     -->
                                 </canvas>
                             </div>
-                            <?php if($slide['source'] ?? false): ?>
-                            <div style="visibility: hidden">
-                                <a>źródło</a>
-                            </div>
+                            <?php if ($slide['source'] ?? false): ?>
+                                <div style="visibility: hidden">
+                                    <a>źródło</a>
+                                </div>
                             <?php endif; ?>
                         </section>
                     <?php endif; ?>
@@ -710,10 +785,10 @@ $slides = [
                                     -->
                                 </canvas>
                             </div>
-                            <?php if($slide['source'] ?? false): ?>
-                            <div class="source">
-                                <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
-                            </div>
+                            <?php if ($slide['source'] ?? false): ?>
+                                <div class="source">
+                                    <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
+                                </div>
                             <?php endif; ?>
                         </section>
                     <?php endif; ?>

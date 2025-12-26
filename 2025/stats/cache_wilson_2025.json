@@ -1,0 +1,835 @@
+{
+  "id": "61c57cefc8095c7166a6b87697c2c137",
+  "metadata": {
+    "baseType": "TopFavWilson",
+    "args": {
+      "filter_crc": {
+        "country": "Poland",
+        "region": "Małopolskie"
+      },
+      "filter_hd": {
+        "fromDate": "2025-01-01",
+        "toDate": "2025-12-31"
+      },
+      "targetProfileName": "kranfagel",
+      "targetProfileId": 35530131
+    },
+    "generatedAt": 1766760678,
+    "size": 401,
+    "hint": [],
+    "skip": 0,
+    "take": 30
+  },
+  "data": [
+    {
+      "rank": 1,
+      "geocache": {
+        "id": 9905924,
+        "referenceCode": "GCB59PW",
+        "name": "Szlakiem Jednorożców |30| Bonus-corn",
+        "location": "Poland / Małopolskie / Krakowski",
+        "owner": {
+          "id": 44605457,
+          "username": "Milk_Bandit"
+        },
+        "favoritePoints": {
+          "count": 18,
+          "pctPremium": "94.74",
+          "wilsonScore": "75.36"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 75.360785,
+      "extra": []
+    },
+    {
+      "rank": 2,
+      "geocache": {
+        "id": 10185829,
+        "referenceCode": "GCBEP02",
+        "name": "Dębiczanie jadą do Biecza.",
+        "location": "Poland / Małopolskie / Gorlicki",
+        "owner": {
+          "id": 22259005,
+          "username": "bojsiu17"
+        },
+        "favoritePoints": {
+          "count": 9,
+          "pctPremium": "100.00",
+          "wilsonScore": "70.08"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 70.084725,
+      "extra": []
+    },
+    {
+      "rank": 3,
+      "geocache": {
+        "id": 10145153,
+        "referenceCode": "GCBDAMY",
+        "name": "Cmentarz wojenny nr 445 w Chrzanowie",
+        "location": "Poland / Małopolskie / Chrzanowski",
+        "owner": {
+          "id": 14963271,
+          "username": "Majki_Obbi"
+        },
+        "favoritePoints": {
+          "count": 10,
+          "pctPremium": "90.91",
+          "wilsonScore": "62.26"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 62.263537,
+      "extra": []
+    },
+    {
+      "rank": 4,
+      "geocache": {
+        "id": 10076145,
+        "referenceCode": "GCBB0VW",
+        "name": "Wakacje po krako(w)sku - Meksyk 🏜️",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 8298144,
+          "username": "Qinka"
+        },
+        "favoritePoints": {
+          "count": 13,
+          "pctPremium": "86.67",
+          "wilsonScore": "62.12"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 62.117501,
+      "extra": []
+    },
+    {
+      "rank": 5,
+      "geocache": {
+        "id": 9909108,
+        "referenceCode": "GCB5D1J",
+        "name": "Bo nie o spacer… #24 - Forteca",
+        "location": "Poland / Małopolskie / Krakowski",
+        "owner": {
+          "id": 7798054,
+          "username": "Anderith"
+        },
+        "favoritePoints": {
+          "count": 18,
+          "pctPremium": "81.82",
+          "wilsonScore": "61.48"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 61.482978,
+      "extra": []
+    },
+    {
+      "rank": 6,
+      "geocache": {
+        "id": 9834901,
+        "referenceCode": "GCB2XTT",
+        "name": "Ukryty Skarb #2 (Wojskowy)",
+        "location": "Poland / Małopolskie / Oświęcimski",
+        "owner": {
+          "id": 49007154,
+          "username": "GhostDiamond"
+        },
+        "favoritePoints": {
+          "count": 6,
+          "pctPremium": "100.00",
+          "wilsonScore": "60.97"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": true,
+          "isArchived": false
+        }
+      },
+      "cnt": 60.965697,
+      "extra": []
+    },
+    {
+      "rank": 7,
+      "geocache": {
+        "id": 10191306,
+        "referenceCode": "GCBEWNQ",
+        "name": "HERB BIECZA",
+        "location": "Poland / Małopolskie / Gorlicki",
+        "owner": {
+          "id": 22259005,
+          "username": "bojsiu17"
+        },
+        "favoritePoints": {
+          "count": 8,
+          "pctPremium": "88.89",
+          "wilsonScore": "56.50"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 56.499379,
+      "extra": []
+    },
+    {
+      "rank": 8,
+      "geocache": {
+        "id": 10222890,
+        "referenceCode": "GCBFYHJ",
+        "name": "Ulepimy dziś... kesza ?",
+        "location": "Poland / Małopolskie / Oświęcimski",
+        "owner": {
+          "id": 49007154,
+          "username": "GhostDiamond"
+        },
+        "favoritePoints": {
+          "count": 4,
+          "pctPremium": "100.00",
+          "wilsonScore": "51.01"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 51.009998,
+      "extra": []
+    },
+    {
+      "rank": 9,
+      "geocache": {
+        "id": 9856824,
+        "referenceCode": "GCB3MM0",
+        "name": "Muuuszę iść na kesza - Wielka Krowa Challenge",
+        "location": "Poland / Małopolskie / Krakowski",
+        "owner": {
+          "id": 18454930,
+          "username": "marcin3243"
+        },
+        "favoritePoints": {
+          "count": 18,
+          "pctPremium": "69.23",
+          "wilsonScore": "50.01"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 50.011388,
+      "extra": []
+    },
+    {
+      "rank": 10,
+      "geocache": {
+        "id": 10207968,
+        "referenceCode": "GCBFE17",
+        "name": "Dyskografia keszera",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 20516271,
+          "username": "daksya"
+        },
+        "favoritePoints": {
+          "count": 11,
+          "pctPremium": "78.57",
+          "wilsonScore": "52.41"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 49.743126,
+      "extra": []
+    },
+    {
+      "rank": 11,
+      "geocache": {
+        "id": 9975634,
+        "referenceCode": "GCB7M8J",
+        "name": "Mydlniki - to tu!",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 44605457,
+          "username": "Milk_Bandit"
+        },
+        "favoritePoints": {
+          "count": 18,
+          "pctPremium": "62.07",
+          "wilsonScore": "44.00"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 44.002226,
+      "extra": []
+    },
+    {
+      "rank": 12,
+      "geocache": {
+        "id": 9896017,
+        "referenceCode": "GCB4ZD9",
+        "name": "prima aprilis #3",
+        "location": "Poland / Małopolskie / Gorlicki",
+        "owner": {
+          "id": 22259005,
+          "username": "bojsiu17"
+        },
+        "favoritePoints": {
+          "count": 5,
+          "pctPremium": "83.33",
+          "wilsonScore": "43.65"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 43.649056,
+      "extra": []
+    },
+    {
+      "rank": 13,
+      "geocache": {
+        "id": 9963343,
+        "referenceCode": "GCB77F3",
+        "name": "Pamiątkowy challenge",
+        "location": "Poland / Małopolskie / Tarnów",
+        "owner": {
+          "id": 19088073,
+          "username": "xMt"
+        },
+        "favoritePoints": {
+          "count": 8,
+          "pctPremium": "72.73",
+          "wilsonScore": "43.43"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 43.434971,
+      "extra": []
+    },
+    {
+      "rank": 14,
+      "geocache": {
+        "id": 9894070,
+        "referenceCode": "GCB4XCF",
+        "name": "Geo-graffiti",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 21708295,
+          "username": "Prezes201"
+        },
+        "favoritePoints": {
+          "count": 12,
+          "pctPremium": "63.16",
+          "wilsonScore": "41.04"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 41.039157,
+      "extra": []
+    },
+    {
+      "rank": 14,
+      "geocache": {
+        "id": 10155012,
+        "referenceCode": "GCBDMXZ",
+        "name": "Kolej w Regulicach",
+        "location": "Poland / Małopolskie / Chrzanowski",
+        "owner": {
+          "id": 16651545,
+          "username": "Sandra_Piotr_BUKOWNO"
+        },
+        "favoritePoints": {
+          "count": 12,
+          "pctPremium": "63.16",
+          "wilsonScore": "41.04"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 41.039157,
+      "extra": []
+    },
+    {
+      "rank": 16,
+      "geocache": {
+        "id": 9920400,
+        "referenceCode": "GCB5RRV",
+        "name": "Odlot - Finał",
+        "location": "Poland / Małopolskie / Olkuski",
+        "owner": {
+          "id": 47249582,
+          "username": "Team_SirWonski"
+        },
+        "favoritePoints": {
+          "count": 7,
+          "pctPremium": "70.00",
+          "wilsonScore": "39.68"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 39.677322,
+      "extra": []
+    },
+    {
+      "rank": 17,
+      "geocache": {
+        "id": 9845551,
+        "referenceCode": "GCB38XB",
+        "name": "Czytasz czy oglądasz?",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 37780666,
+          "username": "stara_baba"
+        },
+        "favoritePoints": {
+          "count": 8,
+          "pctPremium": "66.67",
+          "wilsonScore": "39.06"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 39.061759,
+      "extra": []
+    },
+    {
+      "rank": 18,
+      "geocache": {
+        "id": 9958072,
+        "referenceCode": "GCB7202",
+        "name": "Krowa jaka jest każdy widzi",
+        "location": "Poland / Małopolskie / Krakowski",
+        "owner": {
+          "id": 4506711,
+          "username": "Fishu"
+        },
+        "favoritePoints": {
+          "count": 15,
+          "pctPremium": "57.69",
+          "wilsonScore": "38.95"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 38.948297,
+      "extra": []
+    },
+    {
+      "rank": 19,
+      "geocache": {
+        "id": 9858746,
+        "referenceCode": "GCB3PM0",
+        "name": "Muuuszę iść na kesza - Krowa Arborystka Challenge",
+        "location": "Poland / Małopolskie / Krakowski",
+        "owner": {
+          "id": 18454930,
+          "username": "marcin3243"
+        },
+        "favoritePoints": {
+          "count": 9,
+          "pctPremium": "64.29",
+          "wilsonScore": "38.76"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 38.764005,
+      "extra": []
+    },
+    {
+      "rank": 20,
+      "geocache": {
+        "id": 9810805,
+        "referenceCode": "GCB23QG",
+        "name": "Tama fortyfikacyjna na Wildze",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 9675879,
+          "username": "najlepsi<3"
+        },
+        "favoritePoints": {
+          "count": 11,
+          "pctPremium": "61.11",
+          "wilsonScore": "38.62"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 38.618669,
+      "extra": []
+    },
+    {
+      "rank": 21,
+      "geocache": {
+        "id": 9926903,
+        "referenceCode": "GCB60HK",
+        "name": "Ukryte Miejsce #001",
+        "location": "Poland / Małopolskie / Chrzanowski",
+        "owner": {
+          "id": 49007154,
+          "username": "GhostDiamond"
+        },
+        "favoritePoints": {
+          "count": 4,
+          "pctPremium": "80.00",
+          "wilsonScore": "37.55"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 37.552826,
+      "extra": []
+    },
+    {
+      "rank": 21,
+      "geocache": {
+        "id": 10175517,
+        "referenceCode": "GCBEB8D",
+        "name": "Mszański Jezus",
+        "location": "Poland / Małopolskie / Limanowski",
+        "owner": {
+          "id": 7912685,
+          "username": "Krzosz"
+        },
+        "favoritePoints": {
+          "count": 4,
+          "pctPremium": "80.00",
+          "wilsonScore": "37.55"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 37.552826,
+      "extra": []
+    },
+    {
+      "rank": 21,
+      "geocache": {
+        "id": 10053086,
+        "referenceCode": "GCBA7W1",
+        "name": "„Wieża Pamięci – hołd dla rotmistrza Pileckiego”",
+        "location": "Poland / Małopolskie / Oświęcimski",
+        "owner": {
+          "id": 49007154,
+          "username": "GhostDiamond"
+        },
+        "favoritePoints": {
+          "count": 4,
+          "pctPremium": "80.00",
+          "wilsonScore": "37.55"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 37.552826,
+      "extra": []
+    },
+    {
+      "rank": 21,
+      "geocache": {
+        "id": 10000890,
+        "referenceCode": "GCB8FH9",
+        "name": "Herby w Sukiennicach - challenge",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 21708295,
+          "username": "Prezes201"
+        },
+        "favoritePoints": {
+          "count": 4,
+          "pctPremium": "80.00",
+          "wilsonScore": "37.55"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 37.552826,
+      "extra": []
+    },
+    {
+      "rank": 25,
+      "geocache": {
+        "id": 9771076,
+        "referenceCode": "GCB0RCY",
+        "name": "Pamięci Cenionych ✡️ In memory of Distinguished",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 30953662,
+          "username": "1990ds"
+        },
+        "favoritePoints": {
+          "count": 16,
+          "pctPremium": "55.17",
+          "wilsonScore": "37.55"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": true,
+          "isArchived": false
+        }
+      },
+      "cnt": 37.547667,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "geocache": {
+        "id": 10233971,
+        "referenceCode": "GCBGA31",
+        "name": "Z Czermnej na Liwocz #10",
+        "location": "Poland / Małopolskie / Tarnowski",
+        "owner": {
+          "id": 7246008,
+          "username": "gruby_piesek"
+        },
+        "favoritePoints": {
+          "count": 5,
+          "pctPremium": "71.43",
+          "wilsonScore": "35.89"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 35.892909,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "geocache": {
+        "id": 10233976,
+        "referenceCode": "GCBGA36",
+        "name": "Z Czermnej na Liwocz #11",
+        "location": "Poland / Małopolskie / Tarnowski",
+        "owner": {
+          "id": 7246008,
+          "username": "gruby_piesek"
+        },
+        "favoritePoints": {
+          "count": 5,
+          "pctPremium": "71.43",
+          "wilsonScore": "35.89"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 35.892909,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "geocache": {
+        "id": 10234006,
+        "referenceCode": "GCBGA45",
+        "name": "Z Czermnej na Liwocz #14",
+        "location": "Poland / Małopolskie / Tarnowski",
+        "owner": {
+          "id": 7246008,
+          "username": "gruby_piesek"
+        },
+        "favoritePoints": {
+          "count": 5,
+          "pctPremium": "71.43",
+          "wilsonScore": "35.89"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 35.892909,
+      "extra": []
+    },
+    {
+      "rank": 29,
+      "geocache": {
+        "id": 9884314,
+        "referenceCode": "GCB4J7R",
+        "name": "Najdłuższa estakada tramwajowa w Polsce ",
+        "location": "Poland / Małopolskie / Kraków",
+        "owner": {
+          "id": 8298144,
+          "username": "Qinka"
+        },
+        "favoritePoints": {
+          "count": 15,
+          "pctPremium": "53.57",
+          "wilsonScore": "35.81"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 35.812395,
+      "extra": []
+    },
+    {
+      "rank": 30,
+      "geocache": {
+        "id": 10014853,
+        "referenceCode": "GCB8Z2P",
+        "name": "Kamieniołom pod Maguryczem Dużym",
+        "location": "Poland / Małopolskie / Gorlicki",
+        "owner": {
+          "id": 22259005,
+          "username": "bojsiu17"
+        },
+        "favoritePoints": {
+          "count": 2,
+          "pctPremium": "100.00",
+          "wilsonScore": "34.24"
+        },
+        "flags": {
+          "isAnonymous": false,
+          "isOwnedByTarget": false,
+          "isFoundByTarget": false,
+          "isDisabled": false,
+          "isArchived": false
+        }
+      },
+      "cnt": 34.237195,
+      "extra": []
+    }
+  ]
+}
