@@ -215,6 +215,8 @@ $memories = [
     'Team_SirWonski' => "Bawimy się dalej i poznajemy nowych keszerów. W tym roku zorganizowaliśmy 1 swój event USTRZEL SOBIE ŚNIADANIE i puściliśmy małą serię ODLOT\nDo zabawy włączył również  Hiszpania 145, który  sam już zakłada swoje skrzynki i ambitnie szuka nowych keszy.",
     'nemrodek' => "Znalazłem cache w 3 ostatnich brakujących województwach",
     'kingagren22' => "Powrót do keszowania, po dosyć długiej przerwie. W sumie 453 znalezienia, plus te czekające na lepsze czasy... czytaj chęć, czas i motywację do zostania zalogowanymi. Dwa Mega jednego roku, dla mnie kompletna nowość. Współtowarzyszenie przy organizacji geologicznego eventu na górze Świętej Anny. Było super! Chętnie bym to powtórzyła 😊 To był dobry rok!",
+    'juleczkap23' => "byłam w Pradze na swoim pierwszym GIGA i GPS Maze,\nbyłam na odsłonięciu krasnala keszerka we Wrocławiu,\nbyłam na geocaching party w Warszawie,\nbyłam na pierwszym evencie w Kolbuszowej,\nsama zorganizowałam eveny PISANKA i dzień przed podsumowaniem będzie event MORS CCE 2025",
+    'leneia' => 'Keszują z nami dwa pieski!',
 ];
 
 $memoriesCounter = 0;
@@ -223,7 +225,7 @@ $memorySlices = array_chunk($memories, $memorySliceSize, true);
 
 $slides = [
     [
-        ['type' => SlideType::MONTH, 'month' => '01', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '01', 'subtitle' => 'plany, podsumownia, quizy'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATKXD', 'title' => 'Nowy rok, nowe sięganie do gwiazd.', 'owner' => 'soratte', 'date' => '1 stycznia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATNV3', 'title' => 'Krakowskie podsumowanie 2024', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '6 stycznia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB1GGP', 'title' => 'KSzK', 'owner' => 'Quard32', 'owner2' => 'udar2', 'date' => 'styczeń - listopad',
@@ -271,7 +273,7 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '02', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '02', 'subtitle' => 'pizza, pączusie, pele mele'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2M0V', 'title' => 'Czas na pizze', 'owner' => 'Zuśka_Kluśka', 'date' => '7 lutego'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYNWM', 'title' => 'Pele Mele Quiz - Geocachingowe Złote Myśli Finał', 'owner' => 'barucci', 'date' => '13 lutego'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2TEE', 'title' => 'Przegląd gier terenowych #1 🔍🗺️', 'owner' => 'Emson_', 'date' => '19 lutego'],
@@ -287,7 +289,7 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '03', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '03', 'subtitle' => 'krowy, serki, wizytówki'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB358W', 'title' => 'Wizytówki i certyfikaty 4', 'owner' => 'Emson_', 'date' => '1 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB0RE0', 'title' => 'Muuuuszę tu posprzątać', 'owner' => 'kranfagel', 'date' => '2 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB3QGX', 'title' => '🎲 Planszówkowy event 🎲', 'owner' => 'Qinka', 'date' => '12 marca'],
@@ -298,7 +300,7 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '04', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '04', 'subtitle' => 'znakowanie, jednorożce, piżamki'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYQA4', 'title' => 'Święto Tarnowskiej Turystyki 2025', 'owner' => 'Emson_', 'date' => '5 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB3ZYT', 'title' => 'Znakujemy szlak w Szczepanowicach 🖌️🟢', 'owner' => 'Emson_', 'date' => '5 kwietnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB2J2G', 'title' => '🦄✨ Unicorn Day ✨🦄', 'owner' => 'UnicornCacherPL', 'date' => '9 kwietnia'],
@@ -312,14 +314,14 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '05', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '05', 'subtitle' => 'GIGA, koniec'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAGGGG', 'title' => '25 Years of Geocaching – Prague 2025', 'owner' => 'PragueGigaTeam', 'date' => '3 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB57AB', 'title' => 'Koniec', 'owner' => 'Emson_', 'date' => '6 maja'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB7A95', 'title' => 'Ło matko, gdzie nas znowu poniosło?', 'owner' => 'Dominisia_krk', 'date' => '28 maja'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '06', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '06', 'subtitle' => 'gry, treningi'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB6XG3', 'title' => 'GeoSlajdowisko 13 - Islandia i ziemia Krośnieńska', 'owner' => 'yuve', 'owner2' => 'Emson_', 'date' => '4 czerwca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB7ZKW', 'title' => 'GeoGraTerenowa 2.0 - Błonia', 'owner' => 'Chamaneax_PL', 'date' => '12 czerwca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB816D', 'title' => 'Posprzątajmy Radłów!', 'owner' => 'Kosoff', 'date' => '14 czerwca'],
@@ -335,7 +337,7 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '07', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '07', 'subtitle' => 'pikniki, kąpiele, bransoletki, zawody'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB94K4', 'title' => 'GeoSlajdowisko 14 - Barcelona', 'owner' => 'Emson_', 'date' => '10 lipca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB7778', 'title' => 'Celebrating 20 years with Team PodCacher (PIKNIK)', 'owner' => 'kranfagel', 'owner2' => 'leneia', 'date' => '14 lipca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB9FZ0', 'title' => 'Środek Wakacji', 'owner' => 'soratte', 'date' => '22 lipca'],
@@ -347,7 +349,7 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '08', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '08', 'subtitle' => 'gwiazdki, debaty, WWFM'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCAYP9A', 'title' => 'Morskie opowieści - CCE', 'owner' => 'xMt', 'date' => '2 sierpnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB9C8F', 'title' => '𝕊𝕫ℤ𝕫𝔸𝕝𝕠𝕆𝕠𝕟𝔼 𝕀𝕆 𝕝𝕒𝕥 😉', 'owner' => 'Einsztein27', 'date' => '3 sierpnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATN5B', 'title' => 'Juraidy 2025, czyli Idzie niebo ciemną nocą CCE', 'owner' => 'CopernicusHigh', 'date' => '9 sierpnia'],
@@ -359,14 +361,14 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '09', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '09', 'subtitle' => 'pocztówki, ogniska, bule'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB0Y8D', 'title' => 'Buła (krowa) ser i bule ;P', 'owner' => 'm2mPL', 'date' => '20 września'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBCTZ3', 'title' => '2 w 1: Pocztówkowe CITO w kamieniołomie!', 'owner' => 'barucci', 'date' => '28 września'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATMMZ', 'title' => 'Ognisko z okazji', 'owner' => 'dadoskawina', 'date' => '30 września'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '10', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '10', 'subtitle' => 'ziemniaki, drezyny, skrajności'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBCE9Z', 'title' => 'Postcard Day w Krakowie', 'owner' => 'm2mPL', 'date' => '1 października'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB3K0N', 'title' => 'Czy my w końcu zjemy tę kiełbasę?', 'owner' => 'kranfagel', 'date' => '9 października'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBA1HK', 'title' => '#Skrajności Krakowa', 'owner' => 'najlepsi<3', 'date' => 'październik - listopad'],
@@ -379,7 +381,7 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '11', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '11', 'subtitle' => 'GIFF, pyszności, lasery, quiz'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBC1T1', 'title' => 'Kamieniołom Mydlniki v4', 'owner' => 'kranfagel', 'owner2' => 'Dominisia_krk', 'owner3' => 'marcin3243', 'date' => '11 listopada'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCATNGB', 'title' => 'GIFF 2025 Kraków - CCE', 'owner' => 'daksya', 'owner2' => 'kranfagel', 'date' => '12 listopada'],
         ['type' => SlideType::YOUTUBE, 'title' => 'GIFF 2025 Kraków - CCE', 'id' => 'OczuNPRvqPU'],
@@ -455,6 +457,16 @@ $slides = [
                 *Jeśli znajdziesz jakiś błąd w treści, to również proszę o kontakt.*
 
                 *Autorem prezentacji jest [kranfagel](https://www.geocaching.com/account/messagecenter?recipientId=49369c87-1a23-4cd6-a054-3c76cf2399f6&gcCode=GCAW0DT).*
+            </textarea>
+        </section>
+
+        <section data-markdown>
+            <textarea data-template>
+                *Statystyki zamieszczone w prezentacji pochodzą z [Project-GC](https://project-gc.com/) i są pobrane 27 grudnia 2025 (dzień przed eventem).*
+
+                *Siłą rzeczy są uwzględnione tylko kesze zalogowane.*
+
+                *Prezentacja jest małopolskocentryczna.*
             </textarea>
         </section>
 
@@ -693,8 +705,7 @@ $slides = [
             </section>
         <?php endforeach; ?>
 
-        <section data-background="images/2024/other/sad.webp">
-            <h1 class=" r-fit-text">KONIEC</h1>
+        <section data-background="2025/images/bgs/koniec.jpeg">
         </section>
 
     </div>
