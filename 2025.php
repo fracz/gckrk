@@ -217,6 +217,7 @@ $memories = [
     'kingagren22' => "Powrót do keszowania, po dosyć długiej przerwie. W sumie 453 znalezienia, plus te czekające na lepsze czasy... czytaj chęć, czas i motywację do zostania zalogowanymi. Dwa Mega jednego roku, dla mnie kompletna nowość. Współtowarzyszenie przy organizacji geologicznego eventu na górze Świętej Anny. Było super! Chętnie bym to powtórzyła 😊 To był dobry rok!",
     'juleczkap23' => "byłam w Pradze na swoim pierwszym GIGA i GPS Maze,\nbyłam na odsłonięciu krasnala keszerka we Wrocławiu,\nbyłam na geocaching party w Warszawie,\nbyłam na pierwszym evencie w Kolbuszowej,\nsama zorganizowałam eveny PISANKA i dzień przed podsumowaniem będzie event MORS CCE 2025",
     'leneia' => 'Keszują z nami dwa pieski!',
+    'Dominisia_krk' => 'A co tam x eventów w tym roku. Liczby to liczby. Mnie najbardziej cieszy, że nasza społeczność dobrze się ma, rozwija i widać to jeszcze wyraźniej niż w zeszłym roku. Dzięki Wam! :)',
 ];
 
 $memoriesCounter = 0;
@@ -297,6 +298,15 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCB40E7', 'title' => 'CITO - Czysta Wisłoka #3', 'owner' => 'Peter_PL', 'date' => '25 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB1EEA', 'title' => 'GeoPloty x GeoDebaty - Co z Geocaching Małopolska?', 'owner' => 'Dominisia_krk', 'date' => '26 marca'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCB49CM', 'title' => '🌖 Spotkanie wielbicieli sera i nocnego nieba 🌒', 'owner' => 'Dominisia_krk', 'date' => '27 marca'],
+    ],
+    [
+        ['type' => SlideType::TITLE, 'title' => 'Geocaching Kraków', 'bg' => '2025/images/GCAWWFM/cover.jpg'],
+        ['type' => SlideType::NUMBERS, 'title' => 'Grupa na WhatsApp',
+            'numbers' => [
+                ['label' => 'Liczba członków', 'number' => 72],
+                ['label' => 'Liczba wiadomości na Ploteczkach w 2025', 'number' => 8733],
+            ]],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'ploteczki.json', 'title' => 'Liczba wiadomości (Ploteczki)', 'secret' => true],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -626,9 +636,11 @@ $slides = [
                                     <p class="fragment custom blur small number"><?= $number['additional'] ?></p>
                                 <?php endif; ?>
                             <?php endforeach; ?>
-                            <div class="source">
-                                <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
-                            </div>
+                            <?php if ($slide['source'] ?? false): ?>
+                                <div class="source">
+                                    <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
+                                </div>
+                            <?php endif; ?>
                         </section>
                     <?php elseif ($slide['type'] === SlideType::MEMORIES): ?>
                         <section>
@@ -682,9 +694,11 @@ $slides = [
                                     -->
                                 </canvas>
                             </div>
+                            <?php if($slide['source'] ?? false): ?>
                             <div style="visibility: hidden">
                                 <a>źródło</a>
                             </div>
+                            <?php endif; ?>
                         </section>
                     <?php endif; ?>
                         <section data-auto-animate>
@@ -696,9 +710,11 @@ $slides = [
                                     -->
                                 </canvas>
                             </div>
+                            <?php if($slide['source'] ?? false): ?>
                             <div class="source">
                                 <a href="<?= $slide['source'] ?>" target="_blank">źródło</a>
                             </div>
+                            <?php endif; ?>
                         </section>
                     <?php endif; ?>
                 <?php endforeach; ?>
