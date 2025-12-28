@@ -1,5 +1,5 @@
 {
-  "id": "f138121dcaa5a75b32c0e3d4dd9826ed",
+  "id": "1f8266e37ec7cee7c0e1aa5a89dc1720",
   "metadata": {
     "baseType": "TopFTF",
     "args": {
@@ -18,7 +18,7 @@
       "targetProfileName": "kranfagel",
       "targetProfileId": 35530131
     },
-    "generatedAt": 1766761621,
+    "generatedAt": 1766914398,
     "size": 116,
     "hint": {
       "idx": 0
@@ -39,7 +39,7 @@
           "isFriend": false
         }
       },
-      "cnt": 131,
+      "cnt": 132,
       "extra": []
     },
     {
@@ -54,7 +54,7 @@
           "isFriend": false
         }
       },
-      "cnt": 107,
+      "cnt": 110,
       "extra": []
     },
     {
@@ -114,7 +114,7 @@
           "isFriend": false
         }
       },
-      "cnt": 45,
+      "cnt": 46,
       "extra": []
     },
     {
@@ -129,11 +129,26 @@
           "isFriend": false
         }
       },
-      "cnt": 42,
+      "cnt": 43,
       "extra": []
     },
     {
       "rank": 8,
+      "profile": {
+        "id": 4506711,
+        "username": "Fishu",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 40,
+      "extra": []
+    },
+    {
+      "rank": 9,
       "profile": {
         "id": 6150310,
         "username": "dadoskawina",
@@ -150,21 +165,6 @@
     {
       "rank": 9,
       "profile": {
-        "id": 4506711,
-        "username": "Fishu",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": false
-        }
-      },
-      "cnt": 37,
-      "extra": []
-    },
-    {
-      "rank": 10,
-      "profile": {
         "id": 3994479,
         "username": "m2mPL",
         "flags": {
@@ -174,11 +174,11 @@
           "isFriend": false
         }
       },
-      "cnt": 36,
+      "cnt": 39,
       "extra": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "profile": {
         "id": 44605457,
         "username": "Milk_Bandit",
@@ -249,7 +249,7 @@
           "isFriend": true
         }
       },
-      "cnt": 23,
+      "cnt": 26,
       "extra": []
     },
     {
@@ -375,46 +375,16 @@
     {
       "rank": 24,
       "profile": {
-        "id": 10930738,
-        "username": "kretes",
+        "id": 43979098,
+        "username": "leneia",
         "flags": {
           "isAnonymous": false,
           "isSelf": false,
           "isTargetPlayer": false,
-          "isFriend": false
+          "isFriend": true
         }
       },
-      "cnt": 13,
-      "extra": []
-    },
-    {
-      "rank": 24,
-      "profile": {
-        "id": 12073211,
-        "username": "piechurek7",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": false
-        }
-      },
-      "cnt": 13,
-      "extra": []
-    },
-    {
-      "rank": 24,
-      "profile": {
-        "id": 8084766,
-        "username": "Svarträv",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": false
-        }
-      },
-      "cnt": 13,
+      "cnt": 14,
       "extra": []
     },
     {
@@ -429,11 +399,56 @@
           "isFriend": false
         }
       },
+      "cnt": 14,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "profile": {
+        "id": 10930738,
+        "username": "kretes",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
       "cnt": 13,
       "extra": []
     },
     {
-      "rank": 24,
+      "rank": 26,
+      "profile": {
+        "id": 12073211,
+        "username": "piechurek7",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 13,
+      "extra": []
+    },
+    {
+      "rank": 26,
+      "profile": {
+        "id": 8084766,
+        "username": "Svarträv",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 13,
+      "extra": []
+    },
+    {
+      "rank": 26,
       "profile": {
         "id": 48746447,
         "username": "falcon1984pl",
@@ -448,25 +463,10 @@
       "extra": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "profile": {
         "id": 20058795,
         "username": "pocztapp",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": false
-        }
-      },
-      "cnt": 12,
-      "extra": []
-    },
-    {
-      "rank": 29,
-      "profile": {
-        "id": 8923978,
-        "username": "seba54",
         "flags": {
           "isAnonymous": false,
           "isSelf": false,

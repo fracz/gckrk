@@ -1,5 +1,5 @@
 {
-  "id": "89bb44116d4f216006d5f83be97c3a51",
+  "id": "1b2c3db61b97fb483290733a45a250f1",
   "metadata": {
     "baseType": "TopHidden",
     "args": {
@@ -30,8 +30,8 @@
       "targetProfileName": "kranfagel",
       "targetProfileId": 35530131
     },
-    "generatedAt": 1766587469,
-    "size": 62,
+    "generatedAt": 1766916357,
+    "size": 63,
     "hint": {
       "idx": 3
     },
@@ -115,7 +115,22 @@
       "extra": []
     },
     {
-      "rank": 6,
+      "rank": 5,
+      "profile": {
+        "id": 20058795,
+        "username": "pocztapp",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": false
+        }
+      },
+      "cnt": 9,
+      "extra": []
+    },
+    {
+      "rank": 7,
       "profile": {
         "id": 9675879,
         "username": "najlepsi<3",
@@ -130,25 +145,10 @@
       "extra": []
     },
     {
-      "rank": 6,
+      "rank": 7,
       "profile": {
         "id": 47297082,
         "username": "kluczdoskarbu",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": false
-        }
-      },
-      "cnt": 8,
-      "extra": []
-    },
-    {
-      "rank": 6,
-      "profile": {
-        "id": 20058795,
-        "username": "pocztapp",
         "flags": {
           "isAnonymous": false,
           "isSelf": false,
@@ -310,7 +310,22 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 13,
+      "profile": {
+        "id": 43979098,
+        "username": "leneia",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": true
+        }
+      },
+      "cnt": 3,
+      "extra": []
+    },
+    {
+      "rank": 20,
       "profile": {
         "id": 18454930,
         "username": "marcin3243",
@@ -325,7 +340,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 4946110,
         "username": "Sylvia&Peter",
@@ -340,7 +355,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 8084766,
         "username": "Svarträv",
@@ -355,7 +370,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 34353277,
         "username": "JanekDzbanek123",
@@ -370,7 +385,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 21210618,
         "username": "MarcinHe",
@@ -385,7 +400,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 14963271,
         "username": "Majki_Obbi",
@@ -400,7 +415,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 3994479,
         "username": "m2mPL",
@@ -415,7 +430,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 12554848,
         "username": "Piętaszek",
@@ -430,7 +445,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 794494,
         "username": "elales",
@@ -445,7 +460,7 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 53283206,
         "username": "NINJA_Pro_12",
@@ -460,25 +475,10 @@
       "extra": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "profile": {
         "id": 7406024,
         "username": "bigosss",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": false
-        }
-      },
-      "cnt": 2,
-      "extra": []
-    },
-    {
-      "rank": 19,
-      "profile": {
-        "id": 26983367,
-        "username": "yuve",
         "flags": {
           "isAnonymous": false,
           "isSelf": false,

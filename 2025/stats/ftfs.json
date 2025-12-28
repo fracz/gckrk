@@ -1,11 +1,8 @@
 {
-  "id": "a706db55f87721758f8c73ae8ec08d60",
+  "id": "1042b721fb3cbade3839fb76dc838707",
   "metadata": {
     "baseType": "TopFTF",
     "args": {
-      "filter_pr": {
-        "profileName": "kranfagel"
-      },
       "filter_prr": {
         "country": "Poland",
         "region": "Małopolskie"
@@ -17,7 +14,7 @@
       "targetProfileName": "kranfagel",
       "targetProfileId": 35530131
     },
-    "generatedAt": 1766761527,
+    "generatedAt": 1766914285,
     "size": 129,
     "hint": {
       "idx": 1
@@ -38,7 +35,7 @@
           "isFriend": false
         }
       },
-      "cnt": 203,
+      "cnt": 210,
       "extra": []
     },
     {
@@ -49,11 +46,11 @@
         "flags": {
           "isAnonymous": false,
           "isSelf": true,
-          "isTargetPlayer": true,
+          "isTargetPlayer": false,
           "isFriend": false
         }
       },
-      "cnt": 160,
+      "cnt": 161,
       "extra": []
     },
     {
@@ -68,7 +65,7 @@
           "isFriend": false
         }
       },
-      "cnt": 117,
+      "cnt": 119,
       "extra": []
     },
     {
@@ -158,7 +155,7 @@
           "isFriend": false
         }
       },
-      "cnt": 49,
+      "cnt": 52,
       "extra": []
     },
     {
@@ -173,7 +170,7 @@
           "isFriend": false
         }
       },
-      "cnt": 48,
+      "cnt": 51,
       "extra": []
     },
     {
@@ -188,11 +185,11 @@
           "isFriend": false
         }
       },
-      "cnt": 46,
+      "cnt": 47,
       "extra": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "profile": {
         "id": 8923978,
         "username": "seba54",
@@ -218,7 +215,7 @@
           "isFriend": false
         }
       },
-      "cnt": 44,
+      "cnt": 45,
       "extra": []
     },
     {
@@ -269,6 +266,21 @@
     {
       "rank": 16,
       "profile": {
+        "id": 13788563,
+        "username": "Dominisia_krk",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": true
+        }
+      },
+      "cnt": 34,
+      "extra": []
+    },
+    {
+      "rank": 16,
+      "profile": {
         "id": 19856658,
         "username": "Krecik40",
         "flags": {
@@ -282,7 +294,7 @@
       "extra": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "profile": {
         "id": 14249978,
         "username": "Naphilim",
@@ -297,21 +309,6 @@
       "extra": []
     },
     {
-      "rank": 19,
-      "profile": {
-        "id": 13788563,
-        "username": "Dominisia_krk",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": true
-        }
-      },
-      "cnt": 31,
-      "extra": []
-    },
-    {
       "rank": 20,
       "profile": {
         "id": 8298144,
@@ -323,7 +320,7 @@
           "isFriend": false
         }
       },
-      "cnt": 30,
+      "cnt": 31,
       "extra": []
     },
     {
@@ -359,6 +356,21 @@
     {
       "rank": 23,
       "profile": {
+        "id": 43979098,
+        "username": "leneia",
+        "flags": {
+          "isAnonymous": false,
+          "isSelf": false,
+          "isTargetPlayer": false,
+          "isFriend": true
+        }
+      },
+      "cnt": 23,
+      "extra": []
+    },
+    {
+      "rank": 23,
+      "profile": {
         "id": 26965268,
         "username": "Amalteaa",
         "flags": {
@@ -372,7 +384,7 @@
       "extra": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "profile": {
         "id": 19088073,
         "username": "xMt",
@@ -387,7 +399,7 @@
       "extra": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "profile": {
         "id": 38845452,
         "username": "udar2",
@@ -402,7 +414,7 @@
       "extra": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "profile": {
         "id": 10930738,
         "username": "kretes",
@@ -417,7 +429,7 @@
       "extra": []
     },
     {
-      "rank": 27,
+      "rank": 28,
       "profile": {
         "id": 14604865,
         "username": "Abramelin",
@@ -432,7 +444,7 @@
       "extra": []
     },
     {
-      "rank": 27,
+      "rank": 28,
       "profile": {
         "id": 38837582,
         "username": "Quard32",
@@ -447,22 +459,7 @@
       "extra": []
     },
     {
-      "rank": 27,
-      "profile": {
-        "id": 43979098,
-        "username": "leneia",
-        "flags": {
-          "isAnonymous": false,
-          "isSelf": false,
-          "isTargetPlayer": false,
-          "isFriend": true
-        }
-      },
-      "cnt": 21,
-      "extra": []
-    },
-    {
-      "rank": 27,
+      "rank": 28,
       "profile": {
         "id": 48740995,
         "username": "EkaSyr_Mantis",

@@ -1,5 +1,5 @@
 {
-  "id": "cd8e91c573950f8a221aaecc86da1da0",
+  "id": "edeac1ecb12a7d782f5a2e42e6a5bee5",
   "metadata": {
     "baseType": "TopMDCachingPoints",
     "args": {
@@ -13,7 +13,7 @@
       "targetProfileName": "kranfagel",
       "targetProfileId": 35530131
     },
-    "generatedAt": 1766763761,
+    "generatedAt": 1766915907,
     "size": 10000,
     "hint": {
       "idx": 13
@@ -34,7 +34,7 @@
           "isFriend": false
         }
       },
-      "cnt": 339455.5625,
+      "cnt": 339474.0625,
       "extra": []
     },
     {
@@ -49,7 +49,7 @@
           "isFriend": false
         }
       },
-      "cnt": 150019.25,
+      "cnt": 150025.75,
       "extra": []
     },
     {
@@ -79,7 +79,7 @@
           "isFriend": false
         }
       },
-      "cnt": 89443.8125,
+      "cnt": 89448.3125,
       "extra": []
     },
     {
@@ -94,7 +94,7 @@
           "isFriend": false
         }
       },
-      "cnt": 81333.875,
+      "cnt": 81369.375,
       "extra": []
     },
     {
@@ -109,7 +109,7 @@
           "isFriend": true
         }
       },
-      "cnt": 81272.375,
+      "cnt": 81299.375,
       "extra": []
     },
     {
@@ -199,7 +199,7 @@
           "isFriend": false
         }
       },
-      "cnt": 55524.0625,
+      "cnt": 55573.0625,
       "extra": []
     },
     {
@@ -214,7 +214,7 @@
           "isFriend": false
         }
       },
-      "cnt": 53967.8125,
+      "cnt": 54022.8125,
       "extra": []
     },
     {
@@ -229,7 +229,7 @@
           "isFriend": false
         }
       },
-      "cnt": 52152.875,
+      "cnt": 52177.625,
       "extra": []
     },
     {
@@ -244,7 +244,7 @@
           "isFriend": false
         }
       },
-      "cnt": 50459.5,
+      "cnt": 50508.625,
       "extra": []
     },
     {
@@ -259,7 +259,7 @@
           "isFriend": false
         }
       },
-      "cnt": 50435.75,
+      "cnt": 50463.5,
       "extra": []
     },
     {
@@ -274,7 +274,7 @@
           "isFriend": false
         }
       },
-      "cnt": 47134.625,
+      "cnt": 47190.125,
       "extra": []
     },
     {
@@ -304,7 +304,7 @@
           "isFriend": false
         }
       },
-      "cnt": 45577.5,
+      "cnt": 45607.5,
       "extra": []
     },
     {
@@ -319,7 +319,7 @@
           "isFriend": false
         }
       },
-      "cnt": 44698.4375,
+      "cnt": 44707.1875,
       "extra": []
     },
     {
@@ -334,7 +334,7 @@
           "isFriend": false
         }
       },
-      "cnt": 44317.625,
+      "cnt": 44393.375,
       "extra": []
     },
     {
@@ -364,7 +364,7 @@
           "isFriend": false
         }
       },
-      "cnt": 41213.5625,
+      "cnt": 41225.5625,
       "extra": []
     },
     {
@@ -379,7 +379,7 @@
           "isFriend": false
         }
       },
-      "cnt": 39559.375,
+      "cnt": 39557.125,
       "extra": []
     },
     {
@@ -439,7 +439,7 @@
           "isFriend": true
         }
       },
-      "cnt": 38039.375,
+      "cnt": 38298.875,
       "extra": []
     },
     {
@@ -454,7 +454,7 @@
           "isFriend": false
         }
       },
-      "cnt": 37640.5,
+      "cnt": 37928.375,
       "extra": []
     },
     {
