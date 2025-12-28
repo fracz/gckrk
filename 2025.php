@@ -177,17 +177,21 @@ $memories = [
     'daksya' => '536 powiatów ze znalezionym keszem w 2025 roku - 19 miejsce w Europie i 25 na Świecie w tej statystyce w tym roku. Przy okazji dokończenie zazielenienia wszystkich powiatów w Polsce.',
     'CopernicusHigh -> daksya' => 'Ja uważam, że szczególne miejsce należy się Daksyi za Dyskografię keszera. Ja słucham tych piosenkę na okrągło, już mnie dawno nic w świecie geocachingu nie obudziło z zimowego letargu, nie rozśmieszyło do łez i nie sprawiło, że znowu mi się chce. Jakiś niesamowity entuzjazm się we mnie obudził od wysłuchania tych radosnych pioseneczek :)',
     'Prezes201' => 'Początkowo jako cel na rok 2025 ustaliłem sobie, żeby ten rok był po prostu lepszy keszowo od poprzedniego, po kilku miesiącach szło na tyle dobrze, że wbicie 10 tysięcy znalezień, również stało się realnym celem, który spełniłem 19 grudnia w Rzymie. W tym roku wpadło około 4,5 tys. znalezień z czego 2,5 tys. nie licząc labów. Udało mi się również skończyć matrixa na lajciku z Emsonem.',
-    'Majki_Obbi' => 'W 2025 roku w moich statystykach przybyło ponad 780 znalezień i założyłem wreszcie skrytki w moim rodzinnym mieście Chrzanowie, ale to wszystko nieważne, bo najbardziej cieszy mnie tysiąc pięćset sto dziewięćset uśmiechów, żartów, wygłupów, miłych słów i dobrych wspomnień, jakie zebrałem podczas spotkań z innymi keszerami i keszerkami. Dziękuję!',
+    'Majki_Obbi' => 'W 2025 roku w moich statystykach przybyło ponad 790 znalezień i założyłem wreszcie skrytki w moim rodzinnym mieście Chrzanowie, ale to wszystko nieważne, bo najbardziej cieszy mnie tysiąc pięćset sto dziewięćset uśmiechów, żartów, wygłupów, miłych słów i dobrych wspomnień, jakie zebrałem podczas spotkań z innymi keszerami i keszerkami. Dziękuję!',
     'Piętaszek' => 'w tym roku, największym dla mnie wydarzeniem było zaproszenie mnie na event we Wrocławiu, na którym mogłem powiedzieć kilka słów na temat mojej książki, którą napisałem kilka lat temu ☺️ Bardzo fajnie, że ktoś o tym pamiętał i wyciągnął książkę i przy okazji mnie z otchłani historii 😁 Z tego co kojarzę, była to pierwsza taka publikacja w Polsce, poświęcona w 100% Geocachingowi.',
     'GoGacekGC' => 'Gacek nie zaliczy tego roku do udanych. Definitywne zakończenie działalności Stowarzyszenia Geocaching Małopolska rzuciło cień na radości z keszowania w tym roku. A były to wszelkie spotkania, w szczególności na Szczytach Korony Krakowa, jeden skromny FTF, znalezienie najstarszej skrytki Małopolski i wyjątkowej przygody przy "Festiwalu Nietoperzy" oraz poznanie (także keszowych) ciekawostek Sewilli i Norwegii. Z nadzieją lepszego roku 2026...',
     'chrupek_4' => 'W tym roku udało mi się zwiedzić wzdłuż i wszerz całą Skandynawię, a wisienką na torcie było znalezienie najstarszego kesza w Danii "Kippers in the Jungle (Denmark\'s first)" GC6A',
     'Krecik40' => 'W tym roku odwiedziłem 1 "Nowy Kraj" - Rumunię w którym można było zobaczyć kontrasty architektoniczne oraz zapełniłem kalendarz z wielkością skrytki "inna"',
     'Sandra_Piotr_BUKOWNO' => "Oprócz letniej wyprawy do Rzymu, podczas której zalogowaliśmy niezliczoną ilość Earthcache'y i Virtuali, 2025 przebiegł głownie w kierunku statystyk. Jest tego bardzo dużo, ale dumni jesteśmy z tej jednej:\nW 2025 roku udało nam się zdobyć prawie 200 FTF'ów - kilkadziesiąt więcej niż Kranfagel ;)",
+    'Radek06' => "Generalnie kolejny rekordowy rok pełen mniejszych i większych osiągnięć, ale największą przygodą była chyba wyprawa do Pragi na nasze pierwsze GIGA, gdzie udało się połączyć zbieranie mnóstwa starych i wysoko FAVowanych keszy ze zwiedzeniem niesamowicie pięknego miasta.\n PS: Jeszcze raz dziękuję Oli za piękną pieczątkę, którą zrobiła nam na Mikołajki ❤️",
+    'wiewiórka500' => "Ten rok był rokiem wielu podróży i założeń. Odwiedziłem 4 kraje i założyłem 13 keszy!",
     'piechurek7' => 'Najlepiej wspominam wieloosobowe wyprawy keszerów. Niezależnie od organizatora oraz destynacji, zawsze panowała świetna atmosfera, dobra współpraca, a keszowanie dawało wiele radości i dostarczało niesamowitych przygód.',
     'PL_MASA' => "2025… sukcesy drzewne, stworzenie grupy keszerskiej w pracy, Giga w Pradze i pierwszy webcam, pierwsze wędkowanie, keszowanie bardzo daleko od domu, geo-przyjaciele z krakowskiej społeczności, mój pierwszy zorganizowany event i… 1600 znalezień",
     'AsereczeKK' => "Za nami pierwszy pełny rok keszowania. Rok temu gdy zaczynaliśmy, na podsumowaniu były 62 kesze teraz jest ponad 500, więc idzie do przodu ;) zgarnęliśmy kilka szczególnych dla nas keszy w Kapadocji w Turcji Które mają ponad 20 lat, dziękujemy znajomym keszerom za ten rok. To był super czas!",
     'M&O&P' => "W tym roku udało nam się ponownie poszerzyć zasięg naszego keszowania, tym razem zdobyliśmy najdalej jak dotąd wysunięty na południe kesz, na Sri Lance, w Tangalle GC5RGTK . Kraj ten nas zachwycił: piękne starożytne stupy, przyroda i dzikie słonie... Naliczyliśmy ich setkę podczas jednodniowego safari 😍.",
+    'Qinka' => "...",
     'soratte' => "Keszowanie krajoznawcze w dobrym towarzystwie, poza ubitymi szlakami. Mołdawia i Azerbejdżan, polecam.",
+    'Trusik' => "Ten rok był bardzo fajny. Jednym z wydarzeń, które zapadło mi w pamięć, było to, że pierwszy raz w życiu bylem na MEGA!",
     'falcon1984pl' => "- dalsze czerpanie przyjemności i satysfakcji z geocachingu\n - skupiam się głównie na keszowaniu po Krakowie i najbliższej okolicy, atakowaniu FTF jesli jest możliwość ;)\n - wyjazd kilkudniowy na Geocaching Party 2025 (Warszawa) gdzie zrobilismy z synem ponad 200 pkt z labami\n - oprocz tego troche keszowania na Pomorzu podczas majówki i wakacji",
     'hedonic' => "Spontaniczny wypad na Giga do Pragi, zorganizowanie czterech eventów w czterech krajach (Indie, ZEA, Tajlandia i CCE w Kambodży z okazji mojego 15lecia dołączenia do grona keszerów, z tej okazji konsumowaliśmy suszone owady i owoce lotosu).",
     'bezsenna' => "Z tego roku najlepiej wspominam event, na którym był sam papież Leon XIV :) W tłumie ludzi nie znalazłam keszerów z eventu, ale za to gość honorowy dwukrotnie przejechał swoim papamobile po placu św. Piotra.",
@@ -206,7 +210,7 @@ $memories = [
     'Krzosz' => "Był to słaby keszersko rok. Uśredniając niewiele ponad 100 znalezień na miesiąc.",
     'kluczdoskarbu' => "Za moje największe w tym roku osiągnięcie uważam to, że udało mi się ukończyć pierwszego, drugiego a nawet trzeciego matrixa!",
     'dadoskawina' => "Świadomym osiągnięciem, które mnie bardzo ucieszyło jest skompletowanie powiatów w Czechach. (można dodać, że jako pierwszy, i jak dotąd - jedyny - gracz z Małopolski :) )\n A jako pierwszy w Polsce osiągnąłem 111 CITO, co pozwoliło mi zdobyć FTF-a na challengu we Wrocławiu :)\n Statystyki powinienem mieć dostępne, aczkolwiek nie mam ciekawych, więc nawet nie musisz zaglądać.",
-    'Dominisia_krk' => 'A co tam 258 eventów w tym roku. Liczby to liczby. Mnie najbardziej cieszy, że nasza społeczność dobrze się ma, rozwija i widać to jeszcze wyraźniej niż w zeszłym roku. Dzięki Wam! :)',
+    'Dominisia_krk' => 'A co tam 153 eventy w tym roku. Liczby to liczby. Mnie najbardziej cieszy, że nasza społeczność dobrze się ma, rozwija i widać to jeszcze wyraźniej niż w zeszłym roku. Dzięki Wam! :)',
     'barucci' => "Moim największym geocachingowym osiągnięciem w 2025 był krakowski film GIFFowy, w którym wystąpił każdy, dosłownie każdy, kto chciał się zaangażować - drugorzędne, że sam film trafił do finałowej rolki Geocaching International Film Festival ;)",
     'aforyzm' => "To co mi się udało w tym roku to w końcu przekroczenie magicznego progu 1000 znalezień. Co prawda liczę z LABkami, bo bez nich jeszcze trochę mi brakuje, ale i tak bardzo cieszę się z tego mojego małego sukcesu.",
     'Milk_Bandit' => "Założenie geoarta jednorożca.\nZnalezienie półtora tysiąca keszy.\nZnalezienie 15 typów w niecałe 4 godziny.\nPrzekroczyliśmy 100 założonych keszy.",
@@ -231,6 +235,12 @@ $memories = [
 $memoriesCounter = 0;
 $memorySliceSize = ceil(count($memories) / 11);
 $memorySlices = array_chunk($memories, $memorySliceSize, true);
+if (count($memorySlices) < 11) {
+    $lastSlice = array_pop($memorySlices);
+    $sliced = array_chunk($lastSlice, ceil(count($lastSlice) / 2), true);
+    $memorySlices[] = $sliced[0];
+    $memorySlices[] = $sliced[1];
+}
 
 $slides = [
     [
@@ -438,11 +448,9 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCATKNH', 'title' => '25 lat geoachingu - ponownie na drezynach', 'owner' => 'nemrodek', 'date' => '26 października'],
     ],
     [
-        ['type' => SlideType::TITLE, 'title' => 'Kącik statsiarza', 'bg' => '2025/images/bgs/stats.gif'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'top_photos.json', 'title' => 'Liczba zdjęć', 'source' => 'https://project-gc.com/Statistics/TopLogImageUploaders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'top_points.json', 'title' => 'Top D+T / day', 'source' => 'https://project-gc.com/Statistics/TopPointsDay?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'top_month.json', 'title' => 'Najlepszy miesiąc', 'source' => 'https://project-gc.com/Statistics/TopGeocachesMonth?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'top' => 20, 'stats' => 'found_percent_krakow.json', 'title' => '% Krakowa', 'source' => 'https://project-gc.com/Statistics/TopFoundPercent?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&submit=Filter'],
+        ['type' => SlideType::TITLE, 'title' => 'Stare kesze', 'bg' => '2025/images/bgs/old.gif'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'oldies.json', 'title' => 'Znalezione stare kesze (<2005)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_hd_fromDate=&filter_hd_toDate=2005-01-01&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_hidden_month.json', 'title' => 'Znalezione miesiące (Jasmer)', 'source' => 'https://project-gc.com/Statistics/TopHiddenMonthLoggers?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -460,9 +468,15 @@ $slides = [
         ['type' => SlideType::EVENT, 'gccode' => 'GCBECR0', 'title' => 'Międzynarodowy Dzień Ciasta 🥧🎂🍰', 'owner' => 'Emson_', 'date' => '27 listopada'],
     ],
     [
-        ['type' => SlideType::TITLE, 'title' => 'Stare kesze', 'bg' => '2025/images/bgs/old.gif'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'oldies.json', 'title' => 'Znalezione stare kesze (<2005)', 'source' => 'https://project-gc.com/Statistics/TopFinders?filter_pr_profileName=kranfagel&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_hd_fromDate=&filter_hd_toDate=2005-01-01&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
-        ['type' => SlideType::BAR_CHART, 'stats' => 'top_hidden_month.json', 'title' => 'Znalezione miesiące (Jasmer)', 'source' => 'https://project-gc.com/Statistics/TopHiddenMonthLoggers?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::TITLE, 'title' => 'Kącik statsiarza', 'bg' => '2025/images/bgs/stats.gif'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_photos.json', 'title' => 'Liczba zdjęć', 'source' => 'https://project-gc.com/Statistics/TopLogImageUploaders?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_points.json', 'title' => 'Top D+T / day', 'source' => 'https://project-gc.com/Statistics/TopPointsDay?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'stats' => 'top_month.json', 'title' => 'Najlepszy miesiąc', 'source' => 'https://project-gc.com/Statistics/TopGeocachesMonth?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=Ma%C5%82opolskie&filter_crc_country=&filter_ld_fromDate=2025-01-01&filter_ld_toDate=2025-12-31&submit=Filter'],
+        ['type' => SlideType::BAR_CHART, 'top' => 20, 'stats' => 'found_percent_krakow.json', 'title' => '% Krakowa', 'source' => 'https://project-gc.com/Statistics/TopFoundPercent?filter_pr_profileName=&filter_prr_country=Poland&filter_prr_region=&filter_crc_country=Poland&filter_crc_region=Ma%C5%82opolskie&filter_crc_county=Krak%C3%B3w&submit=Filter'],
+        ['type' => SlideType::NUMBERS, 'title' => 'Wspomnienia 2025',
+            'numbers' => [
+                ['label' => 'Liczba wspomnień', 'number' => count($memories)],
+            ]],
     ],
     [['type' => SlideType::MEMORIES]],
     [
@@ -741,6 +755,19 @@ $slides = [
                                     <img class="" src="/<?= $photosDir ?>/<?= $photo ?>"
                                          style="max-height: 700px; max-width: 700px; vertical-align: top"/>
                                 <?php endforeach; ?>
+                            </section>
+                        <?php endif; ?>
+                            <?php if ($nick === 'Qinka'): ?>
+                            <section data-auto-animate>
+                                <h1 class="dark-block">Qinka</h1>
+                                <iframe width="1050" height="590" src="https://www.youtube.com/embed/GJTfaZe_63U"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                <div>
+                                    <a target="_blank"
+                                       href="https://www.youtube.com/watch?v=GJTfaZe_63U">link</a>
+                                </div>
                             </section>
                         <?php endif; ?>
                         <?php endforeach; ?>

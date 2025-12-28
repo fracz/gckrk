@@ -59,4 +59,8 @@ return [
     'Dominisia_krk' => 'https://img.geocaching.com/user/square250/675ac81e-8b69-4b48-9b31-81089ca38c72.jpg',
     'leneia' => 'https://img.geocaching.com/user/square250/d2fbe1e9-f322-4c44-9cd6-914af91e88ac.jpg',
     'emode' => 'https://img.geocaching.com/user/square250/a6d0d965-5570-48eb-9281-2350073b4c7d.jpg',
+    'Radek06' => 'https://img.geocaching.com/user/square250/b61ece68-a8c7-4651-8144-8f2029fe2a5c.jpg',
+    'wiewiórka500' => 'https://img.geocaching.com/user/square250/3f8a86df-2655-450a-9cda-f944812ef4b6.png',
+    'Qinka' => 'https://img.geocaching.com/user/square250/7e532e10-e06f-4cd8-99dc-1249928974bf.jpg',
+    'Trusik' => 'https://img.geocaching.com/user/square250/4c67dd05-21eb-49a5-ab1d-a3b678935dcd.png',
 ];
