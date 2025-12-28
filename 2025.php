@@ -752,7 +752,7 @@ $slides = [
                                        href="https://www.geocaching.com/p/?u=<?= urlencode($nick) ?>"><?= htmlspecialchars($nick) ?></a>
                                 </h2>
                                 <?php foreach ($photos as $photo): ?>
-                                    <img class="" src="/<?= $photosDir ?>/<?= $photo ?>"
+                                    <img class="" src="<?= $photosDir ?>/<?= $photo ?>"
                                          style="max-height: 700px; max-width: 700px; vertical-align: top"/>
                                 <?php endforeach; ?>
                             </section>
