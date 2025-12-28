@@ -480,7 +480,7 @@ $slides = [
     ],
     [['type' => SlideType::MEMORIES]],
     [
-        ['type' => SlideType::MONTH, 'month' => '12', 'subtitle' => 'urodzinki, debaty i erfy'],
+        ['type' => SlideType::MONTH, 'month' => '12', 'subtitle' => 'EKA i jeszcze kilka eventów'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBFCB7', 'title' => 'Majki kończy 10 (geo)latek', 'owner' => 'Majki_Obbi', 'date' => '1 grudnia'],
         ['type' => SlideType::EVENT, 'gccode' => 'GCBFEEX', 'title' => 'EKA', 'owner' => 'Dominisia_krk', 'others' => true, 'date' => 'grudzień',
             'points' => [
